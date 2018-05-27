@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <!--<ion-icon id="back" name="arrow-back" (click)="goBack()"></ion-icon>-->
+    <ion-title>{{word.chinese}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <div>
+      <ion-icon name="arrow-dropleft-circle" id="icon1" (click)="showLast()"></ion-icon>
+      <img src="{{word.src}}"/>
+      <ion-icon name="arrow-dropright-circle" id="icon2" (click)="showNext()"></ion-icon>
+    </div>
+
+    <div id="englishWord">
+      <span>{{word.english}}</span>
+    </div>
+    <div id="soundmark">
+      <span>[音标]</span>
+    </div>
+</ion-content>

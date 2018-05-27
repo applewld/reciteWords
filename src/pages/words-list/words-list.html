@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{wordkindWithChinese}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let word of wordCards;index as i">
+    <img src="{{word.src}}" (click)="goWord(word,i)">
+    <span>{{word.english}}</span>
+  </ion-item>
+</ion-content>

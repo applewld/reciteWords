@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-icon name="settings"></ion-icon>
+      <ion-title>
+        单词卡
+      </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-item *ngFor="let wordCard of wordCards">
+      <img src="{{wordCard.src}}" (click)="goWordsList(wordCard)">
+      <span>{{wordCard.chinese}}</span>
+    </ion-item>
+</ion-content>
