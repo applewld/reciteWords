@@ -8,8 +8,11 @@
 </ion-header>
 
 <ion-content>
-    <ion-item *ngFor="let wordCard of wordCards">
+  <ion-list id="list">
+    <ion-item *ngFor="let wordCard of wordCards;index as i">
       <img src="{{wordCard.src}}" (click)="goWordsList(wordCard)">
       <span>{{wordCard.chinese}}</span>
     </ion-item>
+  </ion-list>
+
 </ion-content>

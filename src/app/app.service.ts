@@ -15,6 +15,7 @@ export class AppGlobal {
         words:[{english:"ear",chinese:"耳朵"},{english:"eye",chinese:"眼睛"},{english:"face",chinese:"脸"},{english:"forehead",chinese:"额头"},{english:"hair",chinese:"头发"},{english:"head",chinese:"头"},{english:"nose",chinese:"鼻子"},{english:"wrinkle",chinese:"皱纹"}],
         src:"../../assets/imgs/body/ear.png"
       },
+
       {
         chinese:"国家",
         english:"country",

@@ -5,6 +5,18 @@ page-home {
   .toolbar-background-ios {
     background: #999;
   }
+  .item-ios{
+    background-color: #999;
+  }
+  .content-ios {
+    background-color: #999;
+  }
+  .list-ios > .item-block{
+    border-top: 0;
+  }
+  .list-ios .item-block .item-inner{
+    border-bottom: 0;
+  }
   ion-header ion-icon {
     color: blue;
     font-size: 2em;
@@ -14,24 +26,31 @@ page-home {
     color: #ffffff;
   }
   img{
-    width: 150px;
-    height: 150px;
+     width: 80%;
+     height: 80%;
+     display: block;
+     margin: auto;
+     border: 5px solid #fff;
   }
-  ion-content .item-ios {
+  .item-ios {
     width: 50%;
-    float: left;
-    background-color: #999;
-    padding-top: 20px;
-  }
-  ion-content ion-label img{
-    border: 5px solid #fff;
-  }
-  ion-content ion-label span{
-    display: block;
-    text-align: center;
+    padding-top: 40px;
+    padding-left: 0;
     color: #fff;
+    text-align: center;
   }
-  ion-content .item-ios{
-    padding-left: 30px;
+  .item-ios.item-block .item-inner{
+    padding-right: 0;
+  }
+  .label-ios{
+    margin: 0;
+  }
+  .list-ios {
+    margin: -1px 0 32px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block{
+    border-bottom: none;
   }
 }

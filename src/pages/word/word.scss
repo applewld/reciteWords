@@ -19,29 +19,26 @@ page-word {
     color: #ffffff;
   }
   ion-content img{
-      margin: 0 auto;
-      width: 300px;
-      height: 300px;
-      position: absolute;
-      top: 80px;
-      left: 55px;
-      border: 8px solid #fff;
+    display: block;
+    margin: 10% auto 10%;
+    width: 65%;
+    border: 8px solid #fff;
   }
   #icon1 {
     display: inline-block;
     font-size: 3em;
     position: absolute;
-    top: 220px;
-    left: 5px;
+    top: 25%;
+    left: 5%;
     color: #427feb;
   }
   #icon2 {
     display: inline-block;
     font-size: 3em;
     position: absolute;
-    top: 220px;
+    top: 25%;
     color: #427feb;
-    right: 5px;
+    right: 5%;
   }
 
   .content-ios {
@@ -49,12 +46,9 @@ page-word {
   }
 
   #englishWord{
-    width: 300px;
-    height: 50px;
+    width: 65%;
     background-color: #204b6b;
     border-radius: 10px;
-    top: 420px;
-    position: relative;
     margin: auto;
     text-align: center;
     line-height: 50px;
@@ -62,13 +56,10 @@ page-word {
     color: #fff;
   }
   #soundmark{
-    width: 300px;
-    height: 50px;
+    width: 65%;
     background-color: #204b6b;
     border-radius: 10px;
-    top: 465px;
-    position: relative;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     line-height: 50px;
     font-size: 40px;
