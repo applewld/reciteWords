@@ -19,13 +19,13 @@ export class AppGlobal {
       {
         chinese:"国家",
         english:"country",
-        words:["America"],
+        words:[{english:"America",chinese:"美国"}],
         src:"../../assets/imgs/country/America.png"
       },
       {
         chinese:"方向",
         english:"direction",
-        words:["behind"],
+        words:[{english:"behind",chinese:"下面"}],
         src:"../../assets/imgs/direction/behind.png"
       },
     ];
