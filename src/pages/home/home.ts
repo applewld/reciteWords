@@ -20,4 +20,7 @@ export class HomePage {
   goWordsList(wordCard){
     this.navCtrl.push('WordsListPage',{items:wordCard});
   }
+  goSetting(){
+    this.navCtrl.push('SettingPage');
+  }
 }

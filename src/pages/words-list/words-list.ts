@@ -52,4 +52,7 @@ export class WordsListPage {
     });
 
   }
+  goExam(){
+    this.navCtrl.push('ExamPage');
+  }
 }

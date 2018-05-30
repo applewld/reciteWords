@@ -19,13 +19,13 @@ export class AppGlobal {
       {
         chinese:"国家",
         english:"country",
-        words:[{english:"America",chinese:"美国"}],
+        words:[{english:"America",chinese:"美国"},{english:"Australia",chinese:"澳大利亚"},{english:"Britain",chinese:"英国"},{english:"Canada",chinese:"加拿大"},{english:"China",chinese:"中国"},{english:"Egypt",chinese:"埃及"},{english:"Germany",chinese:"德国"},{english:"Hungary",chinese:"匈牙利"}],
         src:"../../assets/imgs/country/America.png"
       },
       {
         chinese:"方向",
         english:"direction",
-        words:[{english:"behind",chinese:"下面"}],
+        words:[{english:"behind",chinese:"后面"},{english:"front",chinese:"前面"},{english:"in",chinese:"里面"},{english:"left",chinese:"左面"},{english:"on",chinese:"上面"},{english:"out",chinese:"外面"},{english:"right",chinese:"右面"},{english:"under",chinese:"下面"}],
         src:"../../assets/imgs/direction/behind.png"
       },
     ];

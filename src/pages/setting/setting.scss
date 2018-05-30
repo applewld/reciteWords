@@ -1,0 +1,26 @@
+page-setting {
+  .toolbar-title-ios{
+    color:white;
+  }
+  .toolbar-background-ios{
+    background-color: gray;
+  }
+  .content-ios{
+    background-color: gray;
+  }
+  ion-icon:nth-child(1){
+    font-size: 2em;
+    color:#427feb;
+  }
+  .list-ios{
+    margin:20px 0 32px;
+  }
+
+  .arrow{
+    color:gainsboro;
+  }
+  .label-ios{
+    margin-top: 2px;
+
+  }
+}
