@@ -20,4 +20,13 @@
     <div id="soundmark">
       <span>[音标]</span>
     </div>
+
+    <div id="ic-div">
+      <ion-icon name="play" class="iicon"></ion-icon>
+      <ion-icon name="mic" class="iicon"></ion-icon>
+      <ion-icon name="create" class="iicon"></ion-icon>
+      <ion-icon name="eye" [hidden]="!canSee" (click)="cantsee()" class="iicon"></ion-icon>
+      <ion-icon name="eye-off" [hidden]="canSee" (click)="cansee()" class="iicon"></ion-icon>
+    </div>
+
 </ion-content>

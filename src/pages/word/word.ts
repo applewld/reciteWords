@@ -24,6 +24,7 @@ export class WordPage {
   words:any=[];
   wordkind:any;
   wordCard:any;
+  canSee=true;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
 
   }
@@ -83,6 +84,16 @@ export class WordPage {
     }
   }
 
+  cantsee(){
+      this.canSee=false;
+      document.getElementById('englishWord').style.visibility='hidden';
+      document.getElementById('soundmark').style.visibility='hidden';
+  }
+  cansee(){
+      this.canSee=true;
+      document.getElementById('englishWord').style.visibility='visible';
+      document.getElementById('soundmark').style.visibility='visible';
+  }
   // goBack(){
   //   this.navCtrl.push('WordsListPage',{items:this.wordCard});
   // }

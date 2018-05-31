@@ -65,4 +65,16 @@ page-word {
     font-size: 40px;
     color: #fff;
   }
+
+  #ic-div{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .iicon{
+    font-size: 6rem;
+    color: #427feb;
+  }
 }
