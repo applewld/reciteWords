@@ -1,0 +1,66 @@
+page-look-pic-recog-word {
+  .toolbar-title-ios{
+    font-size: 2rem;
+  }
+  .toolbar-background-ios {
+    background: #999;
+  }
+  .item-ios{
+    background-color: #999;
+  }
+  .content-ios {
+    background-color: #999;
+  }
+  ion-header .toolbar-title-ios{
+    color: #ffffff;
+  }
+
+  #details{
+    width: 94%;
+    height: 60px;
+    background-color: black;
+    margin: 20px auto 10px;
+    border-radius: 5px;
+    padding: 5px 25px;
+  }
+  #schedule{
+    color: #fff;
+    line-height: 30px;
+  }
+  #overtime{
+    float: right;
+    color: #f00;
+    line-height: 30px;
+  }
+  #score{
+    display: block;
+    color: #fff;
+    line-height: 20px;
+  }
+  #pic{
+    width: 60%;
+    margin: auto;
+  }
+  #pic img{
+    border: 5px solid#fff;
+  }
+  .option{
+    border-radius: 5px;
+    width: 90%;
+    height: 8%;
+    margin: 8px auto;
+    background-color: #204b6b;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+  }
+  #sub{
+    width: 100%;
+    background: black;
+    height: 10%;
+    color: #427feb;
+    text-align: center;
+    font-size: 200%;
+    padding: 3%;
+  }
+}

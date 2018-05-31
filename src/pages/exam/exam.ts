@@ -22,4 +22,7 @@ export class ExamPage {
     console.log('ionViewDidLoad ExamPage');
   }
 
+  goLookPicRecogWord(){
+    this.navCtrl.push('LookPicRecogWordPage');
+  }
 }

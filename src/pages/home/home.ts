@@ -23,4 +23,7 @@ export class HomePage {
   goSetting(){
     this.navCtrl.push('SettingPage');
   }
+  goExam(){
+    this.navCtrl.push('ExamPage');
+  }
 }
