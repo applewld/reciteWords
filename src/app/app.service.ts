@@ -80,61 +80,61 @@ export class AppGlobal {
         //question1看图识词
         questions1:[
           {
-            src:'../../assets/imgs/animal/ear.png',
+            src:'../../assets/imgs/body/ear.png',
             chinese:'耳朵',
             english:'ear',
             option1:{value:"ear", TOF:true}, option2:{value:"face", TOF:false}, option3:{value:"forehead", TOF:false}, option4:{value:"hair", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/eye.png',
+            src:'../../assets/imgs/body/eye.png',
             chinese:'眼睛',
             english:'eye',
             option1:{value:"ear", TOF:false}, option2:{value:"head", TOF:false}, option3:{value:"eye", TOF:true}, option4:{value:"forehead", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/face.png',
+            src:'../../assets/imgs/body/face.png',
             chinese:'脸',
             english:'face',
             option1:{value:"wrinkle", TOF:false}, option2:{value:"face", TOF:true}, option3:{value:"eye", TOF:false}, option4:{value:"head", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/forehead.png',
+            src:'../../assets/imgs/body/forehead.png',
             chinese:'额头',
             english:'forehead',
             option1:{value:"head", TOF:false}, option2:{value:"wrinkle", TOF:false}, option3:{value:"forehead", TOF:true}, option4:{value:"face", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/hair.png',
+            src:'../../assets/imgs/body/hair.png',
             chinese:'头发',
             english:'hair',
             option1:{value:"hair", TOF:true}, option2:{value:"head", TOF:false}, option3:{value:"face", TOF:false}, option4:{value:"forehead", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/head.png',
+            src:'../../assets/imgs/body/head.png',
             chinese:'头',
             english:'head',
             option1:{value:"nose", TOF:false}, option2:{value:"wrinkle", TOF:false}, option3:{value:"head", TOF:true}, option4:{value:"face", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/nose.png',
+            src:'../../assets/imgs/body/nose.png',
             chinese:'鼻子',
             english:'nose',
             option1:{value:"nose", TOF:true}, option2:{value:"face", TOF:false}, option3:{value:"forehead", TOF:false}, option4:{value:"wrinkle", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/wrinkle.png',
+            src:'../../assets/imgs/body/wrinkle.png',
             chinese:'皱纹',
             english:'wrinkle',
             option1:{value:"ear", TOF:false}, option2:{value:"wrinkle", TOF:true}, option3:{value:"nose", TOF:false}, option4:{value:"face", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/ear.png',
+            src:'../../assets/imgs/body/ear.png',
             chinese:'耳朵',
             english:'ear',
             option1:{value:"wrinkle", TOF:false}, option2:{value:"nose", TOF:false}, option3:{value:"ear", TOF:true}, option4:{value:"forehead", TOF:false}
           },
           {
-            src:'../../assets/imgs/animal/hair.png',
+            src:'../../assets/imgs/body/hair.png',
             chinese:'头发',
             english:'hair',
             option1:{value:"forehead", TOF:false}, option2:{value:"hair", TOF:true}, option3:{value:"nose", TOF:false}, option4:{value:"wrinkle", TOF:false}
