@@ -6,48 +6,68 @@ export class AppGlobal {
       {
         chinese:"动物",
         english:"animal",
-        words:[{english:"bear",chinese:"熊"},{english:"bull",chinese:"公牛"},{english:"goat",chinese:"山羊"},{english:"lion",chinese:"狮"},{english:"panda",chinese:"熊"},{english:"tiger",chinese:"虎"},{english:"wolf",chinese:"狼"},{english:"zebra",chinese:"斑马"}],
+        words:[{english:"bear",chinese:"熊"},{english:"bull",chinese:"公牛"},{english:"goat",chinese:"山羊"},{english:"lion",chinese:"狮"},{english:"panda",chinese:"熊猫"},{english:"tiger",chinese:"虎"},{english:"wolf",chinese:"狼"},{english:"zebra",chinese:"斑马"}],
         src:"../../assets/imgs/animal/bear.png",
         //question1看图识词
         questions1:[
           {
-              src:'../../assets/imgs/animal/bear.png',
-              option1:{value:"bear", TOF:true}, option2:{value:"bull", TOF:false}, option3:{value:"goat", TOF:false}, option4:{value:"lion", TOF:false}
+            src:'../../assets/imgs/animal/bear.png',
+            chinese:'熊',
+            english:'bear',
+            option1:{value:"bear", TOF:true}, option2:{value:"bull", TOF:false}, option3:{value:"goat", TOF:false}, option4:{value:"lion", TOF:false}
           },
           {
             src:'../../assets/imgs/animal/zebra.png',
+            chinese:'斑马',
+            english:'zebra',
             option1:{value:"bear", TOF:false}, option2:{value:"lion", TOF:false}, option3:{value:"goat", TOF:false}, option4:{value:"zebra", TOF:true}
           },
           {
             src:'../../assets/imgs/animal/wolf.png',
+            chinese:'狼',
+            english:'wolf',
             option1:{value:"bear", TOF:false}, option2:{value:"wolf", TOF:true}, option3:{value:"goat", TOF:false}, option4:{value:"zebra", TOF:false}
           },
           {
             src:'../../assets/imgs/animal/goat.png',
+            chinese:'山羊',
+            english:'goat',
             option1:{value:"wolf", TOF:false}, option2:{value:"bull", TOF:false}, option3:{value:"goat", TOF:true}, option4:{value:"zebra", TOF:false}
           },
           {
             src:'../../assets/imgs/animal/tiger.png',
+            chinese:'虎',
+            english:'tiger',
             option1:{value:"tiger", TOF:true}, option2:{value:"bull", TOF:false}, option3:{value:"goat", TOF:false}, option4:{value:"zebra", TOF:false}
           },
           {
             src:'../../assets/imgs/animal/lion.png',
+            chinese:'狮',
+            english:'lion',
             option1:{value:"bear", TOF:false}, option2:{value:"bull", TOF:false}, option3:{value:"lion", TOF:true}, option4:{value:"zebra", TOF:false}
           },
           {
             src:'../../assets/imgs/animal/panda.png',
+            chinese:'熊猫',
+            english:'panda',
             option1:{value:"panda", TOF:true}, option2:{value:"bull", TOF:false}, option3:{value:"goat", TOF:false}, option4:{value:"zebra", TOF:false}
           },
           {
             src:'../../assets/imgs/animal/bull.png',
+            chinese:'公牛',
+            english:'bull',
             option1:{value:"bear", TOF:false}, option2:{value:"bull", TOF:true}, option3:{value:"goat", TOF:false}, option4:{value:"zebra", TOF:false}
           },
           {
             src:'../../assets/imgs/animal/goat.png',
+            chinese:'山羊',
+            english:'goat',
             option1:{value:"bear", TOF:false}, option2:{value:"bull", TOF:false}, option3:{value:"goat", TOF:true}, option4:{value:"zebra", TOF:false}
           },
           {
             src:'../../assets/imgs/animal/zebra.png',
+            chinese:'斑马',
+            english:'zebra',
             option1:{value:"bear", TOF:false}, option2:{value:"bull", TOF:false}, option3:{value:"goat", TOF:false}, option4:{value:"zebra", TOF:true}
           },
         ]
