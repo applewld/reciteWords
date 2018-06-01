@@ -146,13 +146,137 @@ export class AppGlobal {
         chinese:"国家",
         english:"country",
         words:[{english:"America",chinese:"美国"},{english:"Australia",chinese:"澳大利亚"},{english:"Britain",chinese:"英国"},{english:"Canada",chinese:"加拿大"},{english:"China",chinese:"中国"},{english:"Egypt",chinese:"埃及"},{english:"Germany",chinese:"德国"},{english:"Hungary",chinese:"匈牙利"}],
-        src:"../../assets/imgs/country/America.png"
+        src:"../../assets/imgs/country/America.png",
+        questions1:[
+          {
+            src:'../../assets/imgs/country/America.png',
+            chinese:'美国',
+            english:'America',
+            option1:{value:"America", TOF:true}, option2:{value:"Australia", TOF:false}, option3:{value:"Canada", TOF:false}, option4:{value:"China", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/China.png',
+            chinese:'中国',
+            english:'China',
+            option1:{value:"Australia", TOF:false}, option2:{value:"Canada", TOF:false}, option3:{value:"China", TOF:true}, option4:{value:"Egypt", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/Egypt.png',
+            chinese:'埃及',
+            english:'Egypt',
+            option1:{value:"America", TOF:false}, option2:{value:"Britain", TOF:false}, option3:{value:"Egypt", TOF:true}, option4:{value:"Germany", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/Hungary.png',
+            chinese:'匈牙利',
+            english:'Hungary',
+            option1:{value:"Egypt", TOF:false}, option2:{value:"Hungary", TOF:true}, option3:{value:"Britain", TOF:false}, option4:{value:"Germany", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/Australia.png',
+            chinese:'澳大利亚',
+            english:'Australia',
+            option1:{value:"Australia", TOF:true}, option2:{value:"China", TOF:false}, option3:{value:"Hungary", TOF:false}, option4:{value:"America", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/Canada.png',
+            chinese:'加拿大',
+            english:'Canada',
+            option1:{value:"America", TOF:false}, option2:{value:"Egypt", TOF:false}, option3:{value:"Canada", TOF:true}, option4:{value:"Australia", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/China.png',
+            chinese:'中国',
+            english:'China',
+            option1:{value:"China", TOF:true}, option2:{value:"Australia", TOF:false}, option3:{value:"Britain", TOF:false}, option4:{value:"Egypt", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/Egypt.png',
+            chinese:'埃及',
+            english:'Egypt',
+            option1:{value:"Egypt", TOF:true}, option2:{value:"Australia", TOF:false}, option3:{value:"America", TOF:false}, option4:{value:"Germany", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/Germany.png',
+            chinese:'德国',
+            english:'Germany',
+            option1:{value:"Canada", TOF:false}, option2:{value:"Germany", TOF:true}, option3:{value:"Egypt", TOF:false}, option4:{value:"Hungary", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/country/Australia.png',
+            chinese:'澳大利亚',
+            english:'Australia',
+            option1:{value:"China", TOF:false}, option2:{value:"Australia", TOF:true}, option3:{value:"America", TOF:false}, option4:{value:"Hungary", TOF:false}
+          },
+        ]
       },
       {
         chinese:"方向",
         english:"direction",
         words:[{english:"behind",chinese:"后面"},{english:"front",chinese:"前面"},{english:"in",chinese:"里面"},{english:"left",chinese:"左面"},{english:"on",chinese:"上面"},{english:"out",chinese:"外面"},{english:"right",chinese:"右面"},{english:"under",chinese:"下面"}],
-        src:"../../assets/imgs/direction/behind.png"
+        src:"../../assets/imgs/direction/behind.png",
+        questions1:[
+          {
+            src:'../../assets/imgs/direction/behind.png',
+            chinese:'后面',
+            english:'behind',
+            option1:{value:"behind", TOF:true}, option2:{value:"front", TOF:false}, option3:{value:"on", TOF:false}, option4:{value:"right", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/in.png',
+            chinese:'里面',
+            english:'in',
+            option1:{value:"out", TOF:false}, option2:{value:"right", TOF:false}, option3:{value:"in", TOF:true}, option4:{value:"front", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/on.png',
+            chinese:'上面',
+            english:'on',
+            option1:{value:"behind", TOF:false}, option2:{value:"left", TOF:false}, option3:{value:"on", TOF:true}, option4:{value:"under", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/front.png',
+            chinese:'前面',
+            english:'front',
+            option1:{value:"front", TOF:true}, option2:{value:"right", TOF:false}, option3:{value:"under", TOF:false}, option4:{value:"left", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/left.png',
+            chinese:'左面',
+            english:'left',
+            option1:{value:"left", TOF:true}, option2:{value:"on", TOF:false}, option3:{value:"behind", TOF:false}, option4:{value:"right", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/out.png',
+            chinese:'外面',
+            english:'out',
+            option1:{value:"on", TOF:false}, option2:{value:"right", TOF:false}, option3:{value:"out", TOF:true}, option4:{value:"left", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/right.png',
+            chinese:'右面',
+            english:'right',
+            option1:{value:"right", TOF:true}, option2:{value:"left", TOF:false}, option3:{value:"front", TOF:false}, option4:{value:"out", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/under.png',
+            chinese:'下面',
+            english:'under',
+            option1:{value:"under", TOF:true}, option2:{value:"in", TOF:false}, option3:{value:"on", TOF:false}, option4:{value:"out", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/behind.png',
+            chinese:'后面',
+            english:'behind',
+            option1:{value:"behind", TOF:true}, option2:{value:"left", TOF:false}, option3:{value:"out", TOF:false}, option4:{value:"right", TOF:false}
+          },
+          {
+            src:'../../assets/imgs/direction/left.png',
+            chinese:'左面',
+            english:'left',
+            option1:{value:"behind", TOF:false}, option2:{value:"left", TOF:true}, option3:{value:"in", TOF:false}, option4:{value:"out", TOF:false}
+          },
+        ]
       },
     ];
 
