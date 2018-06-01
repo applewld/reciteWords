@@ -16,6 +16,11 @@ page-look-pic-recog-word {
   }
 
   #details{
+    /* position: fixed; */
+    /* overflow: hidden; */
+    /* top: 6%; */
+    /* left: 3%; */
+    /* z-index: 1; */
     width: 94%;
     height: 60px;
     background-color: black;
@@ -97,7 +102,14 @@ page-look-pic-recog-word {
     line-height: 40px;
     font-size: 2rem;
   }
-
+  #result{
+    overflow-y: scroll;
+    max-height: 90%;
+  }
+  .scroll-content{
+    overflow-y: hidden;
+  }
+  //html,bo{overflow:hidden;}
   //#yourAnswer{
   //  float: right;
   //  height: 30px;
