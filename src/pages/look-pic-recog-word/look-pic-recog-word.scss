@@ -33,7 +33,6 @@ page-look-pic-recog-word {
     line-height: 30px;
   }
   #score{
-    display: block;
     color: #fff;
     line-height: 20px;
   }
@@ -63,4 +62,52 @@ page-look-pic-recog-word {
     font-size: 200%;
     padding: 3%;
   }
+  #end{
+    color: #f00;
+    float: right;
+  }
+  .label-ios{
+    margin: 0;
+  }
+  .item-ios{
+    padding-left: 0;
+  }
+  .item-ios.item-block .item-inner{
+    padding-right: 0;
+  }
+  .list-ios{
+    padding: 0 12px;
+  }
+  #resultImg{
+    display: inline-block;
+    width: 30%;
+    height: 90px;
+  }
+  #resultText{
+    float: right;
+    width: 70%;
+  }
+  #resultText{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+  }
+  #resultText span{
+    line-height: 40px;
+    font-size: 2rem;
+  }
+
+  //#yourAnswer{
+  //  float: right;
+  //  height: 30px;
+  //}
+  //#trueAnswer{
+  //  float: right;
+  //  height: 30px;
+  //}
+  //#chinese{
+  //  float: right;
+  //  height: 30px;
+  //}
 }
