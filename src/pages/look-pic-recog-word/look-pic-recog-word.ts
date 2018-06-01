@@ -48,8 +48,11 @@ export class LookPicRecogWordPage {
   selected3:boolean=false;
   selected4:boolean=false;
   index:any=0;
-  time:any=5;
+  time:any=30;
   timer:any;
+  yourAnswer:any='-';
+
+  results:any=[];
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -81,6 +84,18 @@ export class LookPicRecogWordPage {
       this.time--;
       if(this.time==0){
         clearInterval(this.timer);
+        console.log(this.results);
+        for(let j=this.index;j<10;j++)
+        {
+          let result={
+            src:this.questions[j].src,
+            // yourAnswer:this.yourAnswer,
+            trueAnswer:this.questions[j].english,
+            chinese:this.questions[j].chinese,
+          };
+
+          this.results.push(result);
+        }
         this.over=true;
       }
     }, 1000);
@@ -90,6 +105,8 @@ export class LookPicRecogWordPage {
   nextQuestion(){
       if(this.index>8){
           this.over=true;
+          clearInterval(this.timer);
+          console.log(this.results);
           return;
       }
       else{
@@ -102,6 +119,15 @@ export class LookPicRecogWordPage {
         }else if(this.selected==4&&this.question.option4.TOF==true){
           this.score+=10;
         }
+        let result={
+          src:this.question.src,
+          yourAnswer:this.yourAnswer,
+          trueAnswer:this.question.english,
+          chinese:this.question.chinese,
+        };
+
+        this.results.push(result);
+
         this.index++;
         this.question=this.questions[this.index];
         this.selected1=false;
@@ -117,6 +143,7 @@ export class LookPicRecogWordPage {
     this.selected3=false;
     this.selected4=false;
     this.selected=1;
+    this.yourAnswer=this.question.option1.value;
   }
   select2(){
     this.selected1=false;
@@ -124,6 +151,7 @@ export class LookPicRecogWordPage {
     this.selected3=false;
     this.selected4=false;
     this.selected=2;
+    this.yourAnswer=this.question.option2.value;
   }
   select3(){
     this.selected1=false;
@@ -131,6 +159,7 @@ export class LookPicRecogWordPage {
     this.selected3=true;
     this.selected4=false;
     this.selected=3;
+    this.yourAnswer=this.question.option3.value;
   }
   select4(){
     this.selected1=false;
@@ -138,6 +167,7 @@ export class LookPicRecogWordPage {
     this.selected3=false;
     this.selected4=true;
     this.selected=4;
+    this.yourAnswer=this.question.option4.value;
   }
 
 }
