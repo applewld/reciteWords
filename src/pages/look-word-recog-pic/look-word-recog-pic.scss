@@ -73,4 +73,24 @@ page-look-word-recog-pic {
     font-size: 30px;
     line-height: 50px;
   }
+
+  #trueAnswer,#yourAnswer{
+    width: 150px;
+    height: 170px;
+    display: inline-block;
+  }
+
+  #answer{
+    width: 305px;
+    margin: auto;
+    background-color: #fff;
+  }
+  #answer span{
+    line-height: 20px;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    display: block;
+    font-size: 1em;
+  }
 }
