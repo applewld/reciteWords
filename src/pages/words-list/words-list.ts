@@ -53,6 +53,8 @@ export class WordsListPage {
 
   }
   goExam(){
-    this.navCtrl.push('ExamPage');
+    this.navCtrl.push('ExamPage',{
+      'wordCard':this.wordCard
+    });
   }
 }

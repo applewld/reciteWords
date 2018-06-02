@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {AppGlobal} from "../../app/app.service";
 
 /**
  * Generated class for the LookPicRecogWordPage page.
@@ -17,12 +16,9 @@ import {AppGlobal} from "../../app/app.service";
 export class LookPicRecogWordPage {
 
   over:boolean=false;
-  schedule:any=0;
-  overtime:any;
   score:any=0;
   questions:any=[];
-  wordkind:any="animal";
-  wordCards:any=[];
+  wordCard:any;
   question:any={
       src:'',
       option1:{
@@ -54,29 +50,17 @@ export class LookPicRecogWordPage {
 
   results:any=[];
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.wordCard=this.navParams.get('wordCard');
   }
 
   ionViewDidLoad(){
     console.log('ionViewDidLoad LookPicRecogWordPage');
-    this.wordCards=AppGlobal.wordCards;
-    for(let wordCard of this.wordCards){
-      if(this.wordkind===wordCard.english){
-        this.questions=wordCard.questions1;
-        break;
-      }
-    }
+    this.questions=this.wordCard.questions1;
     this.question=this.questions[0];
     console.log(this.question);
     // window.setTimeout(this.timego(),1000);
     this.timego();
   }
-
-  // timego(){
-  //   this.time-=1;
-  //   if(this.time==0)
-  //     window.clearTimeout(this.timeId);
-  //   this.timeId=window.setTimeout(this.timego(),1000);
-  // }
 
   timego() {
 

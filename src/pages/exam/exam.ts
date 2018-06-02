@@ -15,7 +15,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ExamPage {
 
+  wordCard:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.wordCard=this.navParams.get('wordCard');
   }
 
   ionViewDidLoad() {
@@ -23,6 +25,8 @@ export class ExamPage {
   }
 
   goLookPicRecogWord(){
-    this.navCtrl.push('LookPicRecogWordPage');
+    this.navCtrl.push('LookPicRecogWordPage',{
+      'wordCard':this.wordCard
+    });
   }
 }
