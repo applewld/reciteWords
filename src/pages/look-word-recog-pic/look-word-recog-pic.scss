@@ -1,0 +1,76 @@
+page-look-word-recog-pic {
+  .toolbar-title-ios{
+    font-size: 2rem;
+  }
+  .toolbar-background-ios {
+    background: #999;
+  }
+  .item-ios{
+    background-color: #999;
+  }
+  .content-ios {
+    background-color: #999;
+  }
+  ion-header .toolbar-title-ios{
+    color: #ffffff;
+  }
+
+  #details{
+    width: 94%;
+    height: 60px;
+    background-color: black;
+    margin: 20px auto 10px;
+    border-radius: 5px;
+    padding: 5px 25px;
+  }
+  #schedule{
+    color: #fff;
+    line-height: 30px;
+  }
+  #overtime{
+    float: right;
+    color: #f00;
+    line-height: 30px;
+  }
+  #score{
+    color: #fff;
+    line-height: 20px;
+  }
+  #end{
+    color: #f00;
+    float: right;
+  }
+
+  #option{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    border: 5px solid #fff;
+  }
+  #question{
+    width: 300px;
+    height: 70px;
+    color: #fff;
+    line-height: 70px;
+    font-size: 55px;
+    margin: 10px auto 10px;
+    text-align: center;
+  }
+  #sub{
+    width: 94%;
+    height: 50px;
+    background-color: #000;
+    border-radius: 5px;
+    margin: 30px auto;
+    color: #427feb;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
