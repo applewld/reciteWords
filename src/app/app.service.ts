@@ -70,7 +70,50 @@ export class AppGlobal {
             english:'zebra',
             option1:{value:"bear", TOF:false}, option2:{value:"bull", TOF:false}, option3:{value:"goat", TOF:false}, option4:{value:"zebra", TOF:true}
           },
-        ]
+        ],
+        //questions2看词识图
+        questions2:[
+          {
+            english:"bear",
+            option1:{value:"bear",TOF:true},option2:{value:"bull",TOF:false},option3:{value:"goat",TOF:false},option4:{value:"lion",TOF:false}
+          },
+          {
+            english:"goat",
+            option1:{value:"panda",TOF:false},option2:{value:"zebra",TOF:false},option3:{value:"goat",TOF:true},option4:{value:"tiger",TOF:false}
+          },
+          {
+            english:"bull",
+            option1:{value:"goat",TOF:false},option2:{value:"bull",TOF:true},option3:{value:"zebra",TOF:false},option4:{value:"lion",TOF:false}
+          },
+          {
+            english:"lion",
+            option1:{value:"zebra",TOF:false},option2:{value:"bull",TOF:false},option3:{value:"tiger",TOF:false},option4:{value:"lion",TOF:true}
+          },
+          {
+            english:"panda",
+            option1:{value:"tiger",TOF:false},option2:{value:"bull",TOF:false},option3:{value:"panda",TOF:true},option4:{value:"lion",TOF:false}
+          },
+          {
+            english:"tiger",
+            option1:{value:"tiger",TOF:true},option2:{value:"bull",TOF:false},option3:{value:"goat",TOF:false},option4:{value:"lion",TOF:false}
+          },
+          {
+            english:"wolf",
+            option1:{value:"panda",TOF:false},option2:{value:"bull",TOF:false},option3:{value:"wolf",TOF:true},option4:{value:"tiger",TOF:false}
+          },
+          {
+            english:"zebra",
+            option1:{value:"bear",TOF:false},option2:{value:"zebra",TOF:true},option3:{value:"wolf",TOF:false},option4:{value:"lion",TOF:false}
+          },
+          {
+            english:"bear",
+            option1:{value:"panda",TOF:false},option2:{value:"bull",TOF:false},option3:{value:"goat",TOF:false},option4:{value:"bear",TOF:true}
+          },
+          {
+            english:"lion",
+            option1:{value:"bear",TOF:false},option2:{value:"bull",TOF:false},option3:{value:"lion",TOF:true},option4:{value:"wolf",TOF:false}
+          }
+        ],
       },
       {
         chinese:"身体",
@@ -141,7 +184,6 @@ export class AppGlobal {
           },
         ]
       },
-
       {
         chinese:"国家",
         english:"country",
