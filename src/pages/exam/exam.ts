@@ -29,4 +29,9 @@ export class ExamPage {
       'wordCard':this.wordCard
     });
   }
+  goLookWordRecogPic(){
+    this.navCtrl.push('LookWordRecogPicPage',{
+      'wordCard':this.wordCard
+    })
+  }
 }
