@@ -87,13 +87,7 @@ export class LookPicRecogWordPage {
   }
 
   nextQuestion(){
-      if(this.index>8){
-          this.over=true;
-          clearInterval(this.timer);
-          console.log(this.results);
-          return;
-      }
-      else{
+
         if(this.selected==1&&this.question.option1.TOF==true){
           this.score+=10;
         }else if(this.selected==2&&this.question.option2.TOF==true){
@@ -113,12 +107,21 @@ export class LookPicRecogWordPage {
         this.results.push(result);
 
         this.index++;
-        this.question=this.questions[this.index];
-        this.selected1=false;
-        this.selected2=false;
-        this.selected3=false;
-        this.selected4=false;
-      }
+
+        if(this.index<10){
+          this.question=this.questions[this.index];
+          this.selected1=false;
+          this.selected2=false;
+          this.selected3=false;
+          this.selected4=false;
+          this.yourAnswer='-';
+          this.selected=0;
+        }
+        else{
+          this.over=true;
+          clearInterval(this.timer);
+          console.log(this.results);
+        }
   }
 
   select1(){
