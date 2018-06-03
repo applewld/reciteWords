@@ -93,4 +93,11 @@ page-look-word-recog-pic {
     display: block;
     font-size: 1em;
   }
+  #result{
+    overflow-y: scroll;
+    max-height: 90%;
+  }
+  .scroll-content{
+    overflow-y: hidden;
+  }
 }

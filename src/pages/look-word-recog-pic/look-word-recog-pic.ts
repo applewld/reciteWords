@@ -45,7 +45,7 @@ export class LookWordRecogPicPage {
 
   index:any=0;
   score:any=0;
-  time:any=5;
+  time:any=30;
   TOF:any=false;
   timer:any;
   results:any=[];
