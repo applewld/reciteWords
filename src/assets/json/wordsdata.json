@@ -1,0 +1,429 @@
+[
+  {
+    "language":"chinese",
+    "setting":"设置",
+    "shop":"商店",
+    "XP":"经验值",
+    "selectLanguage": "语言",
+    "voiceType":"语音类型",
+    "womenType":"女声",
+    "menType":"男声",
+    "playSpeed":"播放速度",
+    "clearCache":"清除缓存",
+    "feedBack":"意见反馈",
+    "moreApp":"更多应用",
+    "reviewApp":"为我评分",
+    "shareApp":"分享给好友",
+    "wordcard":"单词卡",
+    "exam":"单元测试",
+    "exam1":"看图识图",
+    "exam2":"看词识图",
+    "exam3":"看图写词",
+    "exam4":"听音识图",
+    "exam5":"看图读词",
+    "exam6":"外语母语",
+    "exam7":"母语外语",
+    "progress":"进度",
+    "score":"得分",
+    "over":"已结束",
+    "submit":"提交",
+    "wordCards": [
+      {
+        "kind": "animal",
+        "meaning": "动物",
+        "picSrc":"../../assets/imgs/animal/bear.png",
+        "words": [
+          {
+            "word": "bear",
+            "meaning": "熊",
+            "picSrc": "../../assets/imgs/animal/bear.png"
+          },
+          {
+            "word": "bull",
+            "meaning": "公牛",
+            "picSrc": "../../assets/imgs/animal/bull.png"
+          },
+          {
+            "word": "goat",
+            "meaning": "山羊",
+            "picSrc": "../../assets/imgs/animal/goat.png"
+          },
+          {
+            "word": "lion",
+            "meaning": "狮子",
+            "picSrc": "../../assets/imgs/animal/lion.png"
+          },
+          {
+            "word": "panda",
+            "meaning": "熊猫",
+            "picSrc": "../../assets/imgs/animal/panda.png"
+          },
+          {
+            "word": "tiger",
+            "meaning": "老虎",
+            "picSrc": "../../assets/imgs/animal/tiger.png"
+          },
+          {
+            "word": "wolf",
+            "meaning": "狼",
+            "picSrc": "../../assets/imgs/animal/wolf.png"
+          },
+          {
+            "word": "zebra",
+            "meaning": "斑马",
+            "picSrc": "../../assets/imgs/animal/zebra.png"
+          }
+        ],
+        "exam1":[
+          {
+              "picSrc":"../../assets/imgs/animal/bear.png",
+              "option1":"bull",
+              "option2":"bear",
+              "option3":"goat",
+              "option4":"lion",
+              "selected":"bear",
+              "meaning":"熊"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/bull.png",
+            "option1":"bull",
+            "option2":"bear",
+            "option3":"goat",
+            "option4":"lion",
+            "selected":"bull",
+            "meaning":"公牛"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/goat.png",
+            "option1":"bull",
+            "option2":"bear",
+            "option3":"goat",
+            "option4":"lion",
+            "selected":"goat",
+            "meaning":"山羊"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/lion.png",
+            "option1":"lion",
+            "option2":"tiger",
+            "option3":"wolf",
+            "option4":"zebra",
+            "selected":"lion",
+            "meaning":"狮子"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/zebra.png",
+            "option1":"lion",
+            "option2":"tiger",
+            "option3":"wolf",
+            "option4":"zebra",
+            "selected":"zebra",
+            "meaning":"斑马"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/wolf.png",
+            "option1":"lion",
+            "option2":"tiger",
+            "option3":"wolf",
+            "option4":"zebra",
+            "selected":"wolf",
+            "meaning":"狼"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/panda.png",
+            "option1":"bull",
+            "option2":"bear",
+            "option3":"panda",
+            "option4":"lion",
+            "selected":"panda",
+            "meaning":"熊猫"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/zebra.png",
+            "option1":"lion",
+            "option2":"tiger",
+            "option3":"panda",
+            "option4":"zebra",
+            "selected":"zebra",
+            "meaning":"斑马"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/tiger.png",
+            "option1":"zebra",
+            "option2":"tiger",
+            "option3":"wolf",
+            "option4":"goat",
+            "selected":"tiger",
+            "meaning":"老虎"
+          },
+          {
+            "picSrc":"../../assets/imgs/animal/wolf.png",
+            "option1":"lion",
+            "option2":"zebra",
+            "option3":"wolf",
+            "option4":"bear",
+            "selected":"wolf",
+            "meaning":"狼"
+          }
+        ],
+        "exam2":[
+          {
+            "word":"bear",
+            "option1":"../../assets/imgs/animal/bear.png",
+            "option2":"../../assets/imgs/animal/bull.png",
+            "option3":"../../assets/imgs/animal/goat.png",
+            "option4":"../../assets/imgs/animal/lion.png",
+            "selected":"../../assets/imgs/animal/bear.png"
+          },
+          {
+            "word":"bull",
+            "option1":"../../assets/imgs/animal/bear.png",
+            "option2":"../../assets/imgs/animal/bull.png",
+            "option3":"../../assets/imgs/animal/goat.png",
+            "option4":"../../assets/imgs/animal/lion.png",
+            "selected":"../../assets/imgs/animal/bull.png"
+          },
+          {
+            "word":"goat",
+            "option1":"../../assets/imgs/animal/lion.png",
+            "option2":"../../assets/imgs/animal/wolf.png",
+            "option3":"../../assets/imgs/animal/goat.png",
+            "option4":"../../assets/imgs/animal/bear.png",
+            "selected":"../../assets/imgs/animal/goat.png"
+          },
+          {
+            "word":"lion",
+            "option1":"../../assets/imgs/animal/goat.png",
+            "option2":"../../assets/imgs/animal/bull.png",
+            "option3":"../../assets/imgs/animal/bear.png",
+            "option4":"../../assets/imgs/animal/lion.png",
+            "selected":"../../assets/imgs/animal/lion.png"
+          },
+          {
+            "word":"zebra",
+            "option1":"../../assets/imgs/animal/tiger.png",
+            "option2":"../../assets/imgs/animal/wolf.png",
+            "option3":"../../assets/imgs/animal/bear.png",
+            "option4":"../../assets/imgs/animal/zebra.png",
+            "selected":"../../assets/imgs/animal/zebra.png"
+          },
+          {
+            "word":"panda",
+            "option1":"../../assets/imgs/animal/lion.png",
+            "option2":"../../assets/imgs/animal/wolf.png",
+            "option3":"../../assets/imgs/animal/panda.png",
+            "option4":"../../assets/imgs/animal/bear.png",
+            "selected":"../../assets/imgs/animal/panda.png"
+          },
+          {
+            "word":"lion",
+            "option1":"../../assets/imgs/animal/goat.png",
+            "option2":"../../assets/imgs/animal/panda.png",
+            "option3":"../../assets/imgs/animal/bear.png",
+            "option4":"../../assets/imgs/animal/lion.png",
+            "selected":"../../assets/imgs/animal/lion.png"
+          },
+          {
+            "word":"wolf",
+            "option1":"../../assets/imgs/animal/tiger.png",
+            "option2":"../../assets/imgs/animal/wolf.png",
+            "option3":"../../assets/imgs/animal/bear.png",
+            "option4":"../../assets/imgs/animal/zebra.png",
+            "selected":"../../assets/imgs/animal/wolf.png"
+          },
+          {
+            "word":"bull",
+            "option1":"../../assets/imgs/animal/goat.png",
+            "option2":"../../assets/imgs/animal/bull.png",
+            "option3":"../../assets/imgs/animal/bear.png",
+            "option4":"../../assets/imgs/animal/lion.png",
+            "selected":"../../assets/imgs/animal/bull.png"
+          },
+          {
+            "word":"tiger",
+            "option1":"../../assets/imgs/animal/tiger.png",
+            "option2":"../../assets/imgs/animal/wolf.png",
+            "option3":"../../assets/imgs/animal/bear.png",
+            "option4":"../../assets/imgs/animal/zebra.png",
+            "selected":"../../assets/imgs/animal/tiger.png"
+          }
+        ]
+      },
+      {
+        "kind": "body",
+        "meaning": "身体",
+        "picSrc":"../../assets/imgs/body/ear.png",
+        "words": [
+          {
+            "word": "ear",
+            "meaning": "耳朵",
+            "picSrc": "../../assets/imgs/body/ear.png"
+          },
+          {
+            "word": "eye",
+            "meaning": "眼睛",
+            "picSrc": "../../assets/imgs/body/eye.png"
+          },
+          {
+            "word": "face",
+            "meaning": "脸",
+            "picSrc": "../../assets/imgs/body/face.png"
+          },
+          {
+            "word": "forehead",
+            "meaning": "额头",
+            "picSrc": "../../assets/imgs/body/forehead.png"
+          },
+          {
+            "word": "hair",
+            "meaning": "头发",
+            "picSrc": "../../assets/imgs/body/hair.png"
+          },
+          {
+            "word": "head",
+            "meaning": "头",
+            "picSrc": "../../assets/imgs/body/head.png"
+          },
+          {
+            "word": "nose",
+            "meaning": "鼻子",
+            "picSrc": "../../assets/imgs/body/nose.png"
+          },
+          {
+            "word": "wrinkle",
+            "meaning": "皱纹",
+            "picSrc": "../../assets/imgs/body/wrinkle.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "language":"english",
+    "setting":"Settings",
+    "shop":"Shop",
+    "XP":"XP",
+    "selectLanguage": "Language",
+    "voiceType":"Voice Type",
+    "womenType":"Women",
+    "menType":"Men",
+    "playSpeed":"Play Speed",
+    "clearCache":"Clear Cache",
+    "feedBack":"Feedback",
+    "moreApp":"More App",
+    "reviewApp":"Review App",
+    "shareApp":"Share App",
+    "wordcard":"WordCard",
+    "exam":"Unit Quiz",
+    "exam1":"Image -> Word",
+    "exam2":"Word -> Image",
+    "exam3":"Image -> Write",
+    "exam4":"Sound -> Image",
+    "exam5":"Image -> Read",
+    "exam6":"",
+    "exam7":"",
+    "progress":"Progress",
+    "score":"Score",
+    "over":"over",
+    "submit":"submit",
+    "wordCards": [
+      {
+        "kind": "animal",
+        "meaning": "animal",
+        "picSrc":"../../assets/imgs/animal/bear.png",
+        "words": [
+          {
+            "word": "bear",
+            "meaning": "bear",
+            "picSrc": "../../assets/imgs/animal/bear.png"
+          },
+          {
+            "word": "bull",
+            "meaning": "bull",
+            "picSrc": "../../assets/imgs/animal/bull.png"
+          },
+          {
+            "word": "goat",
+            "meaning": "goat",
+            "picSrc": "../../assets/imgs/animal/goat.png"
+          },
+          {
+            "word": "lion",
+            "meaning": "lion",
+            "picSrc": "../../assets/imgs/animal/lion.png"
+          },
+          {
+            "word": "panda",
+            "meaning": "熊猫",
+            "picSrc": "../../assets/imgs/animal/panda.png"
+          },
+          {
+            "word": "tiger",
+            "meaning": "tiger",
+            "picSrc": "../../assets/imgs/animal/tiger.png"
+          },
+          {
+            "word": "wolf",
+            "meaning": "wolf",
+            "picSrc": "../../assets/imgs/animal/wolf.png"
+          },
+          {
+            "word": "zebra",
+            "meaning": "zebra",
+            "picSrc": "../../assets/imgs/animal/zebra.png"
+          }
+        ],
+        "exam1":[
+
+        ]
+      },
+      {
+        "kind": "body",
+        "meaning": "body",
+        "picSrc":"../../assets/imgs/body/ear.png",
+        "words": [
+          {
+            "word": "ear",
+            "meaning": "ear",
+            "picSrc": "../../assets/imgs/body/ear.png"
+          },
+          {
+            "word": "eye",
+            "meaning": "eye",
+            "picSrc": "../../assets/imgs/body/eye.png"
+          },
+          {
+            "word": "face",
+            "meaning": "face",
+            "picSrc": "../../assets/imgs/body/face.png"
+          },
+          {
+            "word": "forehead",
+            "meaning": "额头",
+            "picSrc": "../../assets/imgs/body/forehead.png"
+          },
+          {
+            "word": "hair",
+            "meaning": "hair",
+            "picSrc": "../../assets/imgs/body/hair.png"
+          },
+          {
+            "word": "head",
+            "meaning": "head",
+            "picSrc": "../../assets/imgs/body/head.png"
+          },
+          {
+            "word": "nose",
+            "meaning": "nose",
+            "picSrc": "../../assets/imgs/body/nose.png"
+          },
+          {
+            "word": "wrinkle",
+            "meaning": "wrinkle",
+            "picSrc": "../../assets/imgs/body/wrinkle.png"
+          }
+        ]
+      }
+    ]
+  }
+]
