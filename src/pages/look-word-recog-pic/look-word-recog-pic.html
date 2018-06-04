@@ -26,12 +26,12 @@
   </div>
 
   <div id="test" [hidden]="over">
-    <div id="question">{{question.english}}</div>
+    <div id="question">{{question.word}}</div>
     <div id="option">
-      <img id="option1" src="{{question.option1.src}}" (click)="select1()">
-      <img id="option2" src="{{question.option2.src}}" (click)="select2()">
-      <img id="option3" src="{{question.option3.src}}" (click)="select3()">
-      <img id="option4" src="{{question.option4.src}}" (click)="select4()">
+      <img id="option1" src="{{question.option1}}" (click)="select1()">
+      <img id="option2" src="{{question.option2}}" (click)="select2()">
+      <img id="option3" src="{{question.option3}}" (click)="select3()">
+      <img id="option4" src="{{question.option4}}" (click)="select4()">
     </div>
     <div id="sub" (click)="nextQuestion()">提交</div>
   </div>

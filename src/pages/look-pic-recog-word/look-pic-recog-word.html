@@ -25,11 +25,11 @@
       </div>
     </div>
     <div id="test" [hidden]="over">
-      <div id="pic"><img src="{{question.src}}"></div>
-      <div class="option" [style.background-color]="selected1 ? '#ff6b00': '#204b6b'" (click)="select1()"><span>{{question.option1.value}}</span></div>
-      <div class="option" [style.background-color]="selected2 ? '#ff6b00': '#204b6b'" (click)="select2()"><span>{{question.option2.value}}</span></div>
-      <div class="option" [style.background-color]="selected3 ? '#ff6b00': '#204b6b'" (click)="select3()"><span>{{question.option3.value}}</span></div>
-      <div class="option" [style.background-color]="selected4 ? '#ff6b00': '#204b6b'" (click)="select4()"><span>{{question.option4.value}}</span></div>
+      <div id="pic"><img src="{{question.picSrc}}"></div>
+      <div class="option" [style.background-color]="selected1 ? '#ff6b00': '#204b6b'" (click)="select1()"><span>{{question.option1}}</span></div>
+      <div class="option" [style.background-color]="selected2 ? '#ff6b00': '#204b6b'" (click)="select2()"><span>{{question.option2}}</span></div>
+      <div class="option" [style.background-color]="selected3 ? '#ff6b00': '#204b6b'" (click)="select3()"><span>{{question.option3}}</span></div>
+      <div class="option" [style.background-color]="selected4 ? '#ff6b00': '#204b6b'" (click)="select4()"><span>{{question.option4}}</span></div>
       <div id="sub" (click)="nextQuestion()"><span>提交</span></div>
     </div>
 
@@ -40,7 +40,7 @@
               <div id="resultText">
                 <span [style.color]="(result.trueAnswer==result.yourAnswer) ?'green':'red'">{{(result?.yourAnswer)?(result?.yourAnswer):'-'}}</span>
                 <span>{{result.trueAnswer}}</span>
-                <span>{{result.chinese}}</span>
+                <span>{{result.meaning}}</span>
               </div>
           </ion-item>
         </ion-list>

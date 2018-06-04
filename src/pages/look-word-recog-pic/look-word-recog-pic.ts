@@ -18,49 +18,57 @@ export class LookWordRecogPicPage {
 
   questions:any=[];
   question:any={
-    english:'',
-    option1:{
-      value:'',
-      src:'',
-      TOF:false
-    },
-    option2:{
-      value:'',
-      src:'',
-      TOF:false
-    },
-    option3:{
-      value:'',
-      src:'',
-      TOF:false
-    },
-    option4:{
-      value:'',
-      src:'',
-      TOF:false
-    }
+    word:'',
+    option1:'',
+    option2:'',
+    option3:'',
+    option4:'',
+    selected:''
   };
-  wordCard:any;
-  selected:any;
-
+  // question:any={
+  //   english:'',
+  //   option1:{
+  //     value:'',
+  //     src:'',
+  //     TOF:false
+  //   },
+  //   option2:{
+  //     value:'',
+  //     src:'',
+  //     TOF:false
+  //   },
+  //   option3:{
+  //     value:'',
+  //     src:'',
+  //     TOF:false
+  //   },
+  //   option4:{
+  //     value:'',
+  //     src:'',
+  //     TOF:false
+  //   }
+  // };
+  // wordCard:any;
+  selected:any='-';
   index:any=0;
   score:any=0;
   time:any=30;
   TOF:any=false;
   timer:any;
   results:any=[];
+  selectedword:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.wordCard=this.navParams.get('wordCard');
+    this.questions=this.navParams.get('exam2');
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LookWordRecogPicPage');
-    this.questions=this.wordCard.questions2;
-      this.question=this.questions[0];
-    this.question.option1.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option1.value+'.png';
-    this.question.option2.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option2.value+'.png';
-    this.question.option3.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option3.value+'.png';
-    this.question.option4.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option4.value+'.png';
+    // console.log('ionViewDidLoad LookWordRecogPicPage');
+    // this.questions=this.wordCard.questions2;
+    this.question=this.questions[0];
+    // this.question.option1.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option1.value+'.png';
+    // this.question.option2.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option2.value+'.png';
+    // this.question.option3.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option3.value+'.png';
+    // this.question.option4.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option4.value+'.png';
     this.timego();
   }
 
@@ -73,8 +81,8 @@ export class LookWordRecogPicPage {
         for(let j=this.index;j<10;j++)
         {
           let result={
-            tSrc:'../../assets/imgs/' + this.wordCard.english + '/' + this.questions[j].english + '.png',
-            tValue:this.questions[j].english,
+            tSrc:this.questions[j].selected,
+            tValue:this.questions[j].word,
             ySrc:'../../assets/imgs/black.png',
             yValue:'-',
             TOF:false
@@ -89,70 +97,82 @@ export class LookWordRecogPicPage {
   }
 
   select1(){
-    this.selected=this.question.option1.value;
+    this.selected=this.question.option1;
     document.getElementById('option1').style.borderColor='orange';
     document.getElementById('option2').style.borderColor='#fff';
     document.getElementById('option3').style.borderColor='#fff';
     document.getElementById('option4').style.borderColor='#fff';
   }
   select2(){
-    this.selected=this.question.option2.value;
+    this.selected=this.question.option2;
     document.getElementById('option1').style.borderColor='#fff';
     document.getElementById('option2').style.borderColor='orange';
     document.getElementById('option3').style.borderColor='#fff';
     document.getElementById('option4').style.borderColor='#fff';
   }
   select3(){
-    this.selected=this.question.option3.value;
+    this.selected=this.question.option3;
     document.getElementById('option1').style.borderColor='#fff';
     document.getElementById('option2').style.borderColor='#fff';
     document.getElementById('option3').style.borderColor='orange';
     document.getElementById('option4').style.borderColor='#fff';
   }
   select4(){
-    this.selected=this.question.option4.value;
+    this.selected=this.question.option4;
     document.getElementById('option1').style.borderColor='#fff';
     document.getElementById('option2').style.borderColor='#fff';
     document.getElementById('option3').style.borderColor='#fff';
     document.getElementById('option4').style.borderColor='orange';
   }
   nextQuestion(){
-    if(this.question.option1.value==this.selected&&this.question.option1.TOF==true)
+    if(this.question.selected==this.selected)
     {
       this.score+=10;
       this.TOF=true;
     }
-    else if(this.question.option2.value==this.selected&&this.question.option2.TOF==true)
+    else if(this.question.selected==this.selected)
     {
       this.score+=10;
       this.TOF=true;
     }
-    else if(this.question.option3.value==this.selected&&this.question.option3.TOF==true)
+    else if(this.question.selected==this.selected)
     {
       this.score+=10;
       this.TOF=true;
     }
-    else if(this.question.option4.value==this.selected&&this.question.option4.TOF==true)
+    else if(this.question.selected==this.selected)
     {
       this.score+=10;
       this.TOF=true;
+    }
+
+    if(this.selected=='-'){
+      this.selectedword='-';
+    }
+    else{
+      let start = this.selected.indexOf('/',20)+1;
+      let end = this.selected.indexOf('.png');
+      this.selectedword = this.selected.substring(start,end);
+      console.log(this.selectedword);
     }
     let result={
-      tSrc:'../../assets/imgs/' + this.wordCard.english + '/' + this.question.english + '.png',
-      tValue:this.question.english,
-      ySrc:(this.selected=='-')?'../../assets/imgs/black.png':('../../assets/imgs/' + this.wordCard.english + '/' + this.selected + '.png'),
-      yValue:(this.selected=='-')?'-':(this.selected),
+      tSrc:this.question.selected,
+      tValue:this.question.word,
+      ySrc:(this.selected=='-')?'../../assets/imgs/black.png':this.selected,
+      yValue:(this.selectedword=='-')?'-':(this.selectedword),
       TOF:this.TOF
     };
     this.results.push(result);
+    this.selectedword='-';
+    this.selected='-';
     this.index++;
     if(this.index<10){
       this.selected='-';
       this.question = this.questions[this.index];
-      this.question.option1.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option1.value + '.png';
-      this.question.option2.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option2.value + '.png';
-      this.question.option3.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option3.value + '.png';
-      this.question.option4.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option4.value + '.png';
+      // this.question.option1.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option1.value + '.png';
+      // this.question.option2.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option2.value + '.png';
+      // this.question.option3.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option3.value + '.png';
+      // this.question.option4.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option4.value + '.png';
       document.getElementById('option1').style.borderColor='#fff';
       document.getElementById('option2').style.borderColor='#fff';
       document.getElementById('option3').style.borderColor='#fff';
@@ -162,7 +182,7 @@ export class LookWordRecogPicPage {
     else{
       this.over=true;
       clearInterval(this.timer);
-      console.log(this.results);
+      // console.log(this.results);
     }
   }
 

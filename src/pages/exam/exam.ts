@@ -26,12 +26,14 @@ export class ExamPage {
 
   goLookPicRecogWord(){
     this.navCtrl.push('LookPicRecogWordPage',{
-      'wordCard':this.wordCard
+      'exam1':this.wordCard.exam1
     });
   }
   goLookWordRecogPic(){
     this.navCtrl.push('LookWordRecogPicPage',{
-      'wordCard':this.wordCard
-    })
+      'exam2':this.wordCard.exam2
+    });
   }
-}
+  goLookPicWriteWord(){
+
+  }}

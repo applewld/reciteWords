@@ -18,27 +18,16 @@ export class LookPicRecogWordPage {
   over:boolean=false;
   score:any=0;
   questions:any=[];
-  wordCard:any;
   question:any={
-      src:'',
-      option1:{
-        value:'',
-        TOF:false
-      },
-      option2:{
-        value:'',
-        TOF:false
-      },
-      option3:{
-        value:'',
-        TOF:false
-      },
-      option4:{
-        value:'',
-        TOF:false
-      },
+    picSrc:'',
+    option1:'',
+    option2:'',
+    option3:'',
+    option4:'',
+    selected:'',
+    meaning:''
   };
-  selected:any;
+  selected:any="-";
   selected1:boolean=false;
   selected2:boolean=false;
   selected3:boolean=false;
@@ -46,19 +35,15 @@ export class LookPicRecogWordPage {
   index:any=0;
   time:any=30;
   timer:any;
-  yourAnswer:any='-';
+  yourAnswer:any;
 
   results:any=[];
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.wordCard=this.navParams.get('wordCard');
+    this.questions=this.navParams.get('exam1');
   }
 
   ionViewDidLoad(){
-    console.log('ionViewDidLoad LookPicRecogWordPage');
-    this.questions=this.wordCard.questions1;
     this.question=this.questions[0];
-    console.log(this.question);
-    // window.setTimeout(this.timego(),1000);
     this.timego();
   }
 
@@ -68,14 +53,13 @@ export class LookPicRecogWordPage {
       this.time--;
       if(this.time==0){
         clearInterval(this.timer);
-        console.log(this.results);
         for(let j=this.index;j<10;j++)
         {
           let result={
-            src:this.questions[j].src,
-            // yourAnswer:this.yourAnswer,
-            trueAnswer:this.questions[j].english,
-            chinese:this.questions[j].chinese,
+            src:this.questions[j].picSrc,
+            yourAnswer:this.yourAnswer,
+            trueAnswer:this.questions[j].selected,
+            meaning:this.questions[j].meaning,
           };
 
           this.results.push(result);
@@ -88,20 +72,14 @@ export class LookPicRecogWordPage {
 
   nextQuestion(){
 
-        if(this.selected==1&&this.question.option1.TOF==true){
-          this.score+=10;
-        }else if(this.selected==2&&this.question.option2.TOF==true){
-          this.score+=10;
-        }else if(this.selected==3&&this.question.option3.TOF==true){
-          this.score+=10;
-        }else if(this.selected==4&&this.question.option4.TOF==true){
-          this.score+=10;
+        if(this.selected==this.question.selected) {
+          this.score += 10;
         }
         let result={
-          src:this.question.src,
-          yourAnswer:this.yourAnswer,
-          trueAnswer:this.question.english,
-          chinese:this.question.chinese,
+          src:this.question.picSrc,
+          yourAnswer:this.selected,
+          trueAnswer:this.question.selected,
+          meaning:this.question.meaning,
         };
 
         this.results.push(result);
@@ -115,12 +93,11 @@ export class LookPicRecogWordPage {
           this.selected3=false;
           this.selected4=false;
           this.yourAnswer='-';
-          this.selected=0;
+          this.selected='-';
         }
         else{
           this.over=true;
           clearInterval(this.timer);
-          console.log(this.results);
         }
   }
 
@@ -129,32 +106,28 @@ export class LookPicRecogWordPage {
     this.selected2=false;
     this.selected3=false;
     this.selected4=false;
-    this.selected=1;
-    this.yourAnswer=this.question.option1.value;
+    this.selected=this.question.option1;
   }
   select2(){
     this.selected1=false;
     this.selected2=true;
     this.selected3=false;
     this.selected4=false;
-    this.selected=2;
-    this.yourAnswer=this.question.option2.value;
+    this.selected=this.question.option2;
   }
   select3(){
     this.selected1=false;
     this.selected2=false;
     this.selected3=true;
     this.selected4=false;
-    this.selected=3;
-    this.yourAnswer=this.question.option3.value;
+    this.selected=this.question.option3;
   }
   select4(){
     this.selected1=false;
     this.selected2=false;
     this.selected3=false;
     this.selected4=true;
-    this.selected=4;
-    this.yourAnswer=this.question.option4.value;
+    this.selected=this.question.option4;
   }
 
 }
