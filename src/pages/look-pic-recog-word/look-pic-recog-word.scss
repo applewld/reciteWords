@@ -1,0 +1,126 @@
+page-look-pic-recog-word {
+  .toolbar-title-ios{
+    font-size: 2rem;
+  }
+  .toolbar-background-ios {
+    background: #999;
+  }
+  .item-ios{
+    background-color: #999;
+  }
+  .content-ios {
+    background-color: #999;
+  }
+  ion-header .toolbar-title-ios{
+    color: #ffffff;
+  }
+
+  #details{
+    /* position: fixed; */
+    /* overflow: hidden; */
+    /* top: 6%; */
+    /* left: 3%; */
+    /* z-index: 1; */
+    width: 94%;
+    height: 60px;
+    background-color: black;
+    margin: 20px auto 10px;
+    border-radius: 5px;
+    padding: 5px 25px;
+  }
+  #schedule{
+    color: #fff;
+    line-height: 30px;
+  }
+  #overtime{
+    float: right;
+    color: #f00;
+    line-height: 30px;
+  }
+  #score{
+    color: #fff;
+    line-height: 20px;
+  }
+  #pic{
+    width: 250px;
+    height:250px;
+    margin: auto;
+  }
+  #pic img{
+    border: 5px solid#fff;
+  }
+  .option{
+    border-radius: 5px;
+    width: 90%;
+    height: 8%;
+    margin: 8px auto;
+    background-color: #204b6b;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+  }
+  #sub{
+    width: 100%;
+    background: black;
+    height: 10%;
+    color: #427feb;
+    text-align: center;
+    font-size: 200%;
+    padding: 3%;
+  }
+  #end{
+    color: #f00;
+    float: right;
+  }
+  .label-ios{
+    margin: 0;
+  }
+  .item-ios{
+    padding-left: 0;
+  }
+  .item-ios.item-block .item-inner{
+    padding-right: 0;
+  }
+  .list-ios{
+    padding: 0 12px;
+  }
+  #resultImg{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+  }
+  #resultText{
+    float: right;
+    width: 70%;
+  }
+  #resultText{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+  }
+  #resultText span{
+    line-height: 30px;
+    font-size: 2rem;
+  }
+  #result{
+    overflow-y: scroll;
+    max-height: 90%;
+  }
+  //.scroll-content{
+  //  overflow-y: hidden;
+  //}
+  //html,bo{overflow:hidden;}
+  //#yourAnswer{
+  //  float: right;
+  //  height: 30px;
+  //}
+  //#trueAnswer{
+  //  float: right;
+  //  height: 30px;
+  //}
+  //#chinese{
+  //  float: right;
+  //  height: 30px;
+  //}
+}

@@ -1,17 +1,16 @@
 <ion-header>
   <ion-navbar>
     <ion-icon name="settings" (click)="goSetting()"></ion-icon>
-      <ion-title>
-        单词卡
-      </ion-title>
+    <ion-title>{{all.wordcard}}</ion-title>
+    <ion-icon name="paper" (click)="goExam()" style="float:right; margin-right: 10px;"></ion-icon>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list id="list">
     <ion-item *ngFor="let wordCard of wordCards;index as i">
-      <img src="{{wordCard.src}}" (click)="goWordsList(wordCard)">
-      <span>{{wordCard.chinese}}</span>
+      <img src="{{wordCard.picSrc}}" (click)="goWordsList(wordCard)">
+      <span>{{wordCard.meaning}}</span>
     </ion-item>
   </ion-list>
 

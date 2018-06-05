@@ -6,12 +6,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 
+import {AppService} from "./app.service";
+import {HttpClientModule} from "@angular/common/http";
+
 @NgModule({
   declarations: [
     MyApp,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,HttpClientModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -20,7 +23,7 @@ import { MyApp } from './app.component';
   ],
   providers: [
     StatusBar,
-    SplashScreen,
+    SplashScreen,AppService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

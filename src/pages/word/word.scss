@@ -21,24 +21,25 @@ page-word {
   ion-content img{
     display: block;
     margin: 10% auto 10%;
-    width: 65%;
+    width: 250px;
+    height: 250px;
     border: 8px solid #fff;
   }
   #icon1 {
     display: inline-block;
     font-size: 3em;
     position: absolute;
-    top: 25%;
-    left: 5%;
+    top: 150px;
+    left: 2%;
     color: #427feb;
   }
   #icon2 {
     display: inline-block;
     font-size: 3em;
     position: absolute;
-    top: 25%;
+    top: 150px;
     color: #427feb;
-    right: 5%;
+    right: 2%;
   }
 
   .content-ios {
@@ -65,4 +66,17 @@ page-word {
     font-size: 40px;
     color: #fff;
   }
+
+  #ic-div{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .iicon{
+    font-size: 6rem;
+    color: #427feb;
+  }
+
 }
