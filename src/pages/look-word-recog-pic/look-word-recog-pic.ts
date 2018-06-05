@@ -169,10 +169,6 @@ export class LookWordRecogPicPage {
     if(this.index<10){
       this.selected='-';
       this.question = this.questions[this.index];
-      // this.question.option1.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option1.value + '.png';
-      // this.question.option2.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option2.value + '.png';
-      // this.question.option3.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option3.value + '.png';
-      // this.question.option4.src = '../../assets/imgs/' + this.wordCard.english + '/' + this.question.option4.value + '.png';
       document.getElementById('option1').style.borderColor='#fff';
       document.getElementById('option2').style.borderColor='#fff';
       document.getElementById('option3').style.borderColor='#fff';

@@ -16,8 +16,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class ExamPage {
 
   wordCard:any;
+  all:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.wordCard=this.navParams.get('wordCard');
+    this.all=this.navParams.get('all');
   }
 
   ionViewDidLoad() {
@@ -26,12 +28,14 @@ export class ExamPage {
 
   goLookPicRecogWord(){
     this.navCtrl.push('LookPicRecogWordPage',{
-      'exam1':this.wordCard.exam1
+      'exam1':this.wordCard.exam1,
+      'all':this.all
     });
   }
   goLookWordRecogPic(){
     this.navCtrl.push('LookWordRecogPicPage',{
-      'exam2':this.wordCard.exam2
+      'exam2':this.wordCard.exam2,
+      'all':this.all
     });
   }
   goLookPicWriteWord(){

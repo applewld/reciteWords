@@ -15,8 +15,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class WordsListPage {
   wordCard:any;
+  all:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.wordCard=this.navParams.get('wordCard');
+    this.all=this.navParams.get('all');
   }
 
   ionViewDidLoad() {
@@ -31,7 +33,8 @@ export class WordsListPage {
   }
   goExam(){
     this.navCtrl.push('ExamPage',{
-      'wordCard':this.wordCard
+      'wordCard':this.wordCard,
+      'all':this.all
     });
   }
 }

@@ -42,7 +42,8 @@ page-look-pic-recog-word {
     line-height: 20px;
   }
   #pic{
-    width: 60%;
+    width: 250px;
+    height:250px;
     margin: auto;
   }
   #pic img{
@@ -85,7 +86,7 @@ page-look-pic-recog-word {
   }
   #resultImg{
     display: inline-block;
-    width: 30%;
+    width: 90px;
     height: 90px;
   }
   #resultText{
@@ -99,16 +100,16 @@ page-look-pic-recog-word {
     align-content: space-between;
   }
   #resultText span{
-    line-height: 40px;
+    line-height: 30px;
     font-size: 2rem;
   }
   #result{
     overflow-y: scroll;
     max-height: 90%;
   }
-  .scroll-content{
-    overflow-y: hidden;
-  }
+  //.scroll-content{
+  //  overflow-y: hidden;
+  //}
   //html,bo{overflow:hidden;}
   //#yourAnswer{
   //  float: right;
