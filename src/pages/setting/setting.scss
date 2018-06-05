@@ -8,10 +8,10 @@ page-setting {
   .content-ios{
     background-color: gray;
   }
-  ion-icon:nth-child(1){
-    font-size: 2em;
-    color:#427feb;
-  }
+  //ion-icon:nth-child(1){
+  //  font-size: 2em;
+  //  color:#427feb;
+  //}
   .list-ios{
     margin:20px 0 32px;
   }
@@ -20,7 +20,13 @@ page-setting {
     color:gainsboro;
   }
   .label-ios{
-    margin-top: 2px;
+    padding-top: 5px;
 
+  }
+  //page-setting ion-icon:nth-child(1){
+  //  color:#403c3c !important;
+  //}
+  page-setting .arrow{
+    color:gray;
   }
 }

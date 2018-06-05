@@ -23,7 +23,54 @@
 
 </ion-item>
   <ion-item>
-    <ion-label>经验值</ion-label>
+    <ion-label>经验值
+      <ion-icon name="arrow-forward"  class="arrow" style="float: right;"></ion-icon>
+    </ion-label>
   </ion-item>
 </ion-list>
+
+  <ion-list>
+    <button ion-item (click)="presentActionSheet()" >
+      语言
+      <span  item-end >{{language}}</span>
+    </button>
+    <button ion-item>
+      语音类型
+    </button>
+    <button ion-item>
+      播放速度
+    </button>
+    <button ion-item (click)="presentConfirm() ">
+      清除缓存
+      <span  item-end>0.00MB</span>
+    </button>
+  </ion-list>
+
+
+
+  <ion-list>
+    <ion-item>
+
+      <ion-label>意见反馈
+        <ion-icon name="arrow-forward"  class="arrow" style="float: right;"></ion-icon>
+      </ion-label>
+
+    </ion-item>
+    <ion-item>
+      <ion-label>更多应用
+        <ion-icon name="arrow-forward"  class="arrow" style="float: right;"></ion-icon>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>为我评分
+        <ion-icon name="arrow-forward"  class="arrow" style="float: right;"></ion-icon>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>分享给好友
+        <ion-icon name="arrow-forward"  class="arrow" style="float: right;"></ion-icon>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
 </ion-content>
