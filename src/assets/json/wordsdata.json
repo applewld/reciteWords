@@ -294,10 +294,625 @@
             "meaning": "皱纹",
             "picSrc": "../../assets/imgs/body/wrinkle.png"
           }
-        ]
-      }
+        ],
+        "exam1":[
+          {
+            "picSrc":"../../assets/imgs/body/ear.png",
+            "option1":"nose",
+            "option2":"hair",
+            "option3":"face",
+            "option4":"ear",
+            "selected":"ear",
+            "meaning":"耳朵"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/eye.png",
+            "option1":"wrinkle",
+            "option2":"eye",
+            "option3":"hair",
+            "option4":"nose",
+            "selected":"eye",
+            "meaning":"眼睛"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/face.png",
+            "option1":"forehead",
+            "option2":"face",
+            "option3":"ear",
+            "option4":"head",
+            "selected":"face",
+            "meaning":"脸"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/forehead.png",
+            "option1":"forehead",
+            "option2":"head",
+            "option3":"nose",
+            "option4":"eye",
+            "selected":"forehead",
+            "meaning":"额头"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/hair.png",
+            "option1":"head",
+            "option2":"hair",
+            "option3":"face",
+            "option4":"nose",
+            "selected":"hair",
+            "meaning":"头发"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/head.png",
+            "option1":"forehead",
+            "option2":"ear",
+            "option3":"eye",
+            "option4":"head",
+            "selected":"head",
+            "meaning":"头"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/nose.png",
+            "option1":"nose",
+            "option2":"eye",
+            "option3":"face",
+            "option4":"head",
+            "selected":"nose",
+            "meaning":"鼻子"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/wrinkle.png",
+            "option1":"forehead",
+            "option2":"ear",
+            "option3":"wrinkle",
+            "option4":"hair",
+            "selected":"wrinkle",
+            "meaning":"皱纹"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/ear.png",
+            "option1":"ear",
+            "option2":"head",
+            "option3":"wrinkle",
+            "option4":"face",
+            "selected":"ear",
+            "meaning":"耳朵"
+          },
+          {
+            "picSrc":"../../assets/imgs/body/forehead.png",
+            "option1":"head",
+            "option2":"hair",
+            "option3":"nose",
+            "option4":"forehead",
+            "selected":"forehead",
+            "meaning":"额头"
+          }
+        ],
+        "exam2":[
+          {
+            "word":"ear",
+            "option1":"../../assets/imgs/body/face.png",
+            "option2":"../../assets/imgs/body/ear.png",
+            "option3":"../../assets/imgs/body/hair.png",
+            "option4":"../../assets/imgs/body/head.png",
+            "selected":"../../assets/imgs/body/ear.png"
+          },
+          {
+            "word":"eye",
+            "option1":"../../assets/imgs/body/eye.png",
+            "option2":"../../assets/imgs/body/wrinkle.png",
+            "option3":"../../assets/imgs/body/forehead.png",
+            "option4":"../../assets/imgs/body/hair.png",
+            "selected":"../../assets/imgs/body/eye.png"
+          },
+          {
+            "word":"face",
+            "option1":"../../assets/imgs/body/head.png",
+            "option2":"../../assets/imgs/body/nose.png",
+            "option3":"../../assets/imgs/body/face.png",
+            "option4":"../../assets/imgs/body/hair.png",
+            "selected":"../../assets/imgs/body/face.png"
+          },
+          {
+            "word":"forehead",
+            "option1":"../../assets/imgs/body/nose.png",
+            "option2":"../../assets/imgs/body/ear.png",
+            "option3":"../../assets/imgs/body/eye.png",
+            "option4":"../../assets/imgs/body/forehead.png",
+            "selected":"../../assets/imgs/body/forehead.png"
+          },
+          {
+            "word":"hair",
+            "option1":"../../assets/imgs/body/nose.png",
+            "option2":"../../assets/imgs/body/hair.png",
+            "option3":"../../assets/imgs/body/wrinkle.png",
+            "option4":"../../assets/imgs/body/eye.png",
+            "selected":"../../assets/imgs/body/hair.png"
+          },
+          {
+            "word":"head",
+            "option1":"../../assets/imgs/body/head.png",
+            "option2":"../../assets/imgs/body/ear.png",
+            "option3":"../../assets/imgs/body/forehead.png",
+            "option4":"../../assets/imgs/body/nose.png",
+            "selected":"../../assets/imgs/body/head.png"
+          },
+          {
+            "word":"nose",
+            "option1":"../../assets/imgs/body/hair.png",
+            "option2":"../../assets/imgs/body/head.png",
+            "option3":"../../assets/imgs/body/face.png",
+            "option4":"../../assets/imgs/body/nose.png",
+            "selected":"../../assets/imgs/body/nose.png"
+          },
+          {
+            "word":"wrinkle",
+            "option1":"../../assets/imgs/body/forehead.png",
+            "option2":"../../assets/imgs/body/wrinkle.png",
+            "option3":"../../assets/imgs/body/nose.png",
+            "option4":"../../assets/imgs/body/ear.png",
+            "selected":"../../assets/imgs/body/wrinkle.png"
+          },
+          {
+            "word":"forehead",
+            "option1":"../../assets/imgs/body/forehead.png",
+            "option2":"../../assets/imgs/body/face.png",
+            "option3":"../../assets/imgs/body/nose.png",
+            "option4":"../../assets/imgs/body/hair.png",
+            "selected":"../../assets/imgs/body/forehead.png"
+          },
+          {
+            "word":"eye",
+            "option1":"../../assets/imgs/body/ear.png",
+            "option2":"../../assets/imgs/body/hair.png",
+            "option3":"../../assets/imgs/body/eye.png",
+            "option4":"../../assets/imgs/body/head.png",
+            "selected":"../../assets/imgs/body/eye.png"
+          }
     ]
   },
+      {
+        "kind": "country",
+        "meaning": "国家",
+        "picSrc":"../../assets/imgs/country/America.png",
+        "words": [
+          {
+            "word": "America",
+            "meaning": "美国",
+            "picSrc": "../../assets/imgs/country/America.png"
+          },
+          {
+            "word": "Australia",
+            "meaning": "澳大利亚",
+            "picSrc": "../../assets/imgs/country/Australia.png"
+          },
+          {
+            "word": "Britain",
+            "meaning": "英国",
+            "picSrc": "../../assets/imgs/country/Britain.png"
+          },
+          {
+            "word": "Canada",
+            "meaning": "加拿大",
+            "picSrc": "../../assets/imgs/country/Canada.png"
+          },
+          {
+            "word": "China",
+            "meaning": "中国",
+            "picSrc": "../../assets/imgs/country/China.png"
+          },
+          {
+            "word": "Egypt",
+            "meaning": "埃及",
+            "picSrc": "../../assets/imgs/country/Egypt.png"
+          },
+          {
+            "word": "Germany",
+            "meaning": "德国",
+            "picSrc": "../../assets/imgs/country/Germany.png"
+          },
+          {
+            "word": "Hungary",
+            "meaning": "匈牙利",
+            "picSrc": "../../assets/imgs/country/Hungary.png"
+          }
+        ],
+        "exam1":[
+          {
+            "picSrc":"../../assets/imgs/country/America.png",
+            "option1":"Britain",
+            "option2":"America",
+            "option3":"China",
+            "option4":"Egypt",
+            "selected":"America",
+            "meaning":"美国"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/Australia.png",
+            "option1":"Canada",
+            "option2":"Germany",
+            "option3":"Australia",
+            "option4":"Hungary",
+            "selected":"Australia",
+            "meaning":"澳大利亚"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/Britain.png",
+            "option1":"Hungary",
+            "option2":"America",
+            "option3":"China",
+            "option4":"Britain",
+            "selected":"Britain",
+            "meaning":"英国"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/Canada.png",
+            "option1":"Canada",
+            "option2":"Germany",
+            "option3":"Australia",
+            "option4":"Egypt",
+            "selected":"Canada",
+            "meaning":"加拿大"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/China.png",
+            "option1":"Britain",
+            "option2":"China",
+            "option3":"Australia",
+            "option4":"Hungary",
+            "selected":"China",
+            "meaning":"中国"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/Egypt.png",
+            "option1":"Britain",
+            "option2":"China",
+            "option3":"America",
+            "option4":"Egypt",
+            "selected":"Egypt",
+            "meaning":"埃及"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/Germany.png",
+            "option1":"Germany",
+            "option2":"Australia",
+            "option3":"Hungary",
+            "option4":"Canada",
+            "selected":"Germany",
+            "meaning":"德国"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/Hungary.png",
+            "option1":"Germany",
+            "option2":"China",
+            "option3":"Hungary",
+            "option4":"America",
+            "selected":"Hungary",
+            "meaning":"匈牙利"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/China.png",
+            "option1":"America",
+            "option2":"Britain",
+            "option3":"China",
+            "option4":"Egypt",
+            "selected":"China",
+            "meaning":"中国"
+          },
+          {
+            "picSrc":"../../assets/imgs/country/Canada.png",
+            "option1":"Germany",
+            "option2":"Canada",
+            "option3":"Hungary",
+            "option4":"Australia",
+            "selected":"Canada",
+            "meaning":"加拿大"
+          }
+        ],
+        "exam2":[
+          {
+            "word":"America",
+            "option1":"../../assets/imgs/country/China.png",
+            "option2":"../../assets/imgs/country/America.png",
+            "option3":"../../assets/imgs/country/Britain.png",
+            "option4":"../../assets/imgs/country/Canada.png",
+            "selected":"../../assets/imgs/country/America.png"
+          },
+          {
+            "word":"Australia",
+            "option1":"../../assets/imgs/country/Hungary.png",
+            "option2":"../../assets/imgs/country/Australia.png",
+            "option3":"../../assets/imgs/country/America.png",
+            "option4":"../../assets/imgs/country/Germany.png",
+            "selected":"../../assets/imgs/country/Australia.png"
+          },
+          {
+            "word":"Britain",
+            "option1":"../../assets/imgs/country/America.png",
+            "option2":"../../assets/imgs/country/China.png",
+            "option3":"../../assets/imgs/country/Egypt.png",
+            "option4":"../../assets/imgs/country/Britain.png",
+            "selected":"../../assets/imgs/country/Britain.png"
+          },
+          {
+            "word":"Canada",
+            "option1":"../../assets/imgs/country/Hungary.png",
+            "option2":"../../assets/imgs/country/Canada.png",
+            "option3":"../../assets/imgs/country/Germany.png",
+            "option4":"../../assets/imgs/country/Australia.png",
+            "selected":"../../assets/imgs/country/Canada.png"
+          },
+          {
+            "word":"China",
+            "option1":"../../assets/imgs/country/Britain.png",
+            "option2":"../../assets/imgs/country/China.png",
+            "option3":"../../assets/imgs/country/America.png",
+            "option4":"../../assets/imgs/country/Egypt.png",
+            "selected":"../../assets/imgs/country/China.png"
+          },
+          {
+            "word":"Egypt",
+            "option1":"../../assets/imgs/country/Egypt.png",
+            "option2":"../../assets/imgs/country/Canada.png",
+            "option3":"../../assets/imgs/country/Germany.png",
+            "option4":"../../assets/imgs/country/Australia.png",
+            "selected":"../../assets/imgs/country/Egypt.png"
+          },
+          {
+            "word":"Germany",
+            "option1":"../../assets/imgs/country/China.png",
+            "option2":"../../assets/imgs/country/Germany.png",
+            "option3":"../../assets/imgs/country/America.png",
+            "option4":"../../assets/imgs/country/Hungary.png",
+            "selected":"../../assets/imgs/country/Germany.png"
+          },
+          {
+            "word":"Hungary",
+            "option1":"../../assets/imgs/country/Canada.png",
+            "option2":"../../assets/imgs/country/China.png",
+            "option3":"../../assets/imgs/country/Germany.png",
+            "option4":"../../assets/imgs/country/Hungary.png",
+            "selected":"../../assets/imgs/country/Hungary.png"
+          },
+          {
+            "word":"Britain",
+            "option1":"../../assets/imgs/country/Egypt.png",
+            "option2":"../../assets/imgs/country/Britain.png",
+            "option3":"../../assets/imgs/country/Germany.png",
+            "option4":"../../assets/imgs/country/China.png",
+            "selected":"../../assets/imgs/country/Britain.png"
+          },
+          {
+            "word":"Australia",
+            "option1":"../../assets/imgs/country/Canada.png",
+            "option2":"../../assets/imgs/country/Hungary.png",
+            "option3":"../../assets/imgs/country/America.png",
+            "option4":"../../assets/imgs/country/Australia.png",
+            "selected":"../../assets/imgs/country/Australia.png"
+          }
+        ]
+      },
+      {
+        "kind": "direction",
+        "meaning": "方向",
+        "picSrc":"../../assets/imgs/direction/behind.png",
+        "words": [
+          {
+            "word": "behind",
+            "meaning": "在…的后面",
+            "picSrc": "../../assets/imgs/direction/behind.png"
+          },
+          {
+            "word": "between",
+            "meaning": "在…之间",
+            "picSrc": "../../assets/imgs/direction/between.png"
+          },
+          {
+            "word": "front",
+            "meaning": "在…前面",
+            "picSrc": "../../assets/imgs/direction/front.png"
+          },
+          {
+            "word": "in",
+            "meaning": "在…以内",
+            "picSrc": "../../assets/imgs/direction/in.png"
+          },
+          {
+            "word": "left",
+            "meaning": "左边",
+            "picSrc": "../../assets/imgs/direction/left.png"
+          },
+          {
+            "word": "on",
+            "meaning": "在…上",
+            "picSrc": "../../assets/imgs/direction/on.png"
+          },
+          {
+            "word": "right",
+            "meaning": "右边",
+            "picSrc": "../../assets/imgs/direction/right.png"
+          },
+          {
+            "word": "under",
+            "meaning": "在…下面",
+            "picSrc": "../../assets/imgs/direction/under.png"
+          }
+        ],
+        "exam1":[
+          {
+            "picSrc":"../../assets/imgs/direction/behind.png",
+            "option1":"between",
+            "option2":"front",
+            "option3":"behind",
+            "option4":"in",
+            "selected":"behind",
+            "meaning":"在…的后面"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/between.png",
+            "option1":"between",
+            "option2":"in",
+            "option3":"left",
+            "option4":"right",
+            "selected":"between",
+            "meaning":"在…之间"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/front.png",
+            "option1":"in",
+            "option2":"on",
+            "option3":"front",
+            "option4":"left",
+            "selected":"front",
+            "meaning":"在…前面"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/in.png",
+            "option1":"left",
+            "option2":"under",
+            "option3":"in",
+            "option4":"on",
+            "selected":"in",
+            "meaning":"在…以内"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/left.png",
+            "option1":"right",
+            "option2":"behind",
+            "option3":"under",
+            "option4":"left",
+            "selected":"left",
+            "meaning":"左边"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/on.png",
+            "option1":"front",
+            "option2":"between",
+            "option3":"in",
+            "option4":"on",
+            "selected":"on",
+            "meaning":"在…上"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/right.png",
+            "option1":"left",
+            "option2":"behind",
+            "option3":"right",
+            "option4":"between",
+            "selected":"right",
+            "meaning":"右边"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/under.png",
+            "option1":"under",
+            "option2":"on",
+            "option3":"in",
+            "option4":"between",
+            "selected":"under",
+            "meaning":"在…下面"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/in.png",
+            "option1":"on",
+            "option2":"behind",
+            "option3":"in",
+            "option4":"left",
+            "selected":"in",
+            "meaning":"在…以内"
+          },
+          {
+            "picSrc":"../../assets/imgs/direction/under.png",
+            "option1":"in",
+            "option2":"right",
+            "option3":"under",
+            "option4":"behind",
+            "selected":"under",
+            "meaning":"在…下面"
+          }
+        ],
+        "exam2":[
+          {
+            "word":"behind",
+            "option1":"../../assets/imgs/direction/in.png",
+            "option2":"../../assets/imgs/direction/behind.png",
+            "option3":"../../assets/imgs/direction/right.png",
+            "option4":"../../assets/imgs/direction/behind.png",
+            "selected":"../../assets/imgs/direction/behind.png"
+          },
+          {
+            "word":"between",
+            "option1":"../../assets/imgs/direction/front.png",
+            "option2":"../../assets/imgs/direction/under.png",
+            "option3":"../../assets/imgs/direction/left.png",
+            "option4":"../../assets/imgs/direction/between.png",
+            "selected":"../../assets/imgs/direction/between.png"
+          },
+          {
+            "word":"front",
+            "option1":"../../assets/imgs/direction/left.png",
+            "option2":"../../assets/imgs/direction/on.png",
+            "option3":"../../assets/imgs/direction/front.png",
+            "option4":"../../assets/imgs/direction/in.png",
+            "selected":"../../assets/imgs/direction/front.png"
+          },
+          {
+            "word":"in",
+            "option1":"../../assets/imgs/direction/under.png",
+            "option2":"../../assets/imgs/direction/in.png",
+            "option3":"../../assets/imgs/direction/left.png",
+            "option4":"../../assets/imgs/direction/between.png",
+            "selected":"../../assets/imgs/direction/in.png"
+          },
+          {
+            "word":"left",
+            "option1":"../../assets/imgs/direction/in.png",
+            "option2":"../../assets/imgs/direction/right.png",
+            "option3":"../../assets/imgs/direction/behind.png",
+            "option4":"../../assets/imgs/direction/left.png",
+            "selected":"../../assets/imgs/direction/left.png"
+          },
+          {
+            "word":"on",
+            "option1":"../../assets/imgs/direction/on.png",
+            "option2":"../../assets/imgs/direction/front.png",
+            "option3":"../../assets/imgs/direction/behind.png",
+            "option4":"../../assets/imgs/direction/under.png",
+            "selected":"../../assets/imgs/direction/on.png"
+          },
+          {
+            "word":"right",
+            "option1":"../../assets/imgs/direction/on.png",
+            "option2":"../../assets/imgs/direction/right.png",
+            "option3":"../../assets/imgs/direction/front.png",
+            "option4":"../../assets/imgs/direction/left.png",
+            "selected":"../../assets/imgs/direction/right.png"
+          },
+          {
+            "word":"under",
+            "option1":"../../assets/imgs/direction/behind.png",
+            "option2":"../../assets/imgs/direction/right.png",
+            "option3":"../../assets/imgs/direction/under.png",
+            "option4":"../../assets/imgs/direction/right.png",
+            "selected":"../../assets/imgs/direction/under.png"
+          },
+          {
+            "word":"between",
+            "option1":"../../assets/imgs/direction/between.png",
+            "option2":"../../assets/imgs/direction/left.png",
+            "option3":"../../assets/imgs/direction/under.png",
+            "option4":"../../assets/imgs/direction/between.png",
+            "selected":"../../assets/imgs/direction/between.png"
+          },
+          {
+            "word":"right",
+            "option1":"../../assets/imgs/direction/on.png",
+            "option2":"../../assets/imgs/direction/left.png",
+            "option3":"../../assets/imgs/direction/right.png",
+            "option4":"../../assets/imgs/direction/in.png",
+            "selected":"../../assets/imgs/direction/right.png"
+          }
+        ]
+      }
+    ]},
   {
     "language":"english",
     "setting":"Settings",
@@ -421,6 +1036,100 @@
             "word": "wrinkle",
             "meaning": "wrinkle",
             "picSrc": "../../assets/imgs/body/wrinkle.png"
+          }
+        ]
+      },
+      {
+        "kind": "country",
+        "meaning": "country",
+        "picSrc":"../../assets/imgs/country/America.png",
+        "words": [
+          {
+            "word": "America",
+            "meaning": "America",
+            "picSrc": "../../assets/imgs/country/America.png"
+          },
+          {
+            "word": "Australia",
+            "meaning": "Australia",
+            "picSrc": "../../assets/imgs/country/Australia.png"
+          },
+          {
+            "word": "Britain",
+            "meaning": "Britain",
+            "picSrc": "../../assets/imgs/country/Britain.png"
+          },
+          {
+            "word": "Canada",
+            "meaning": "Canada",
+            "picSrc": "../../assets/imgs/country/Canada.png"
+          },
+          {
+            "word": "China",
+            "meaning": "China",
+            "picSrc": "../../assets/imgs/country/China.png"
+          },
+          {
+            "word": "Egypt",
+            "meaning": "Egypt",
+            "picSrc": "../../assets/imgs/country/Egypt.png"
+          },
+          {
+            "word": "Germany",
+            "meaning": "Germany",
+            "picSrc": "../../assets/imgs/country/Germany.png"
+          },
+          {
+            "word": "Hungary",
+            "meaning": "Hungary",
+            "picSrc": "../../assets/imgs/country/Hungary.png"
+          }
+        ]
+      },
+      {
+        "kind": "direction",
+        "meaning": "direction",
+        "picSrc":"../../assets/imgs/direction/behind.png",
+        "words": [
+          {
+            "word": "behind",
+            "meaning": "behind",
+            "picSrc": "../../assets/imgs/direction/behind.png"
+          },
+          {
+            "word": "between",
+            "meaning": "between",
+            "picSrc": "../../assets/imgs/direction/between.png"
+          },
+          {
+            "word": "front",
+            "meaning": "front",
+            "picSrc": "../../assets/imgs/direction/front.png"
+          },
+          {
+            "word": "in",
+            "meaning": "in",
+            "picSrc": "../../assets/imgs/direction/in.png"
+          },
+          {
+            "word": "left",
+            "meaning": "left",
+            "picSrc": "../../assets/imgs/direction/left.png"
+          },
+          {
+            "word": "on",
+            "meaning": "on",
+            "picSrc": "../../assets/imgs/direction/on.png"
+          },
+          {
+            "word": "right",
+            "meaning": "right",
+            "picSrc": "../../assets/imgs/direction/right.png"
+          },
+          {
+            "word": "under",
+            "meaning": "under",
+            "picSrc": "../../assets/imgs/direction/under.png"
           }
         ]
       }

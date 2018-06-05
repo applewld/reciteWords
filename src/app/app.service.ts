@@ -290,7 +290,7 @@ import {HttpClient} from "@angular/common/http";
 //             option1:{value:"left", TOF:true}, option2:{value:"on", TOF:false}, option3:{value:"behind", TOF:false}, option4:{value:"right", TOF:false}
 //           },
 //           {
-//             src:'../../assets/imgs/direction/out.png',
+//             src:'../../assets/imgs/direction/between.png',
 //             chinese:'外面',
 //             english:'out',
 //             option1:{value:"on", TOF:false}, option2:{value:"right", TOF:false}, option3:{value:"out", TOF:true}, option4:{value:"left", TOF:false}
