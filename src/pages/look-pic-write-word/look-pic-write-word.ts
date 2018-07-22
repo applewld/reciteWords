@@ -14,8 +14,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'look-pic-write-word.html',
 })
 export class LookPicWriteWordPage {
-
+  questions:any=[];
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.questions=this.navParams.get('exam2');
   }
 
   ionViewDidLoad() {

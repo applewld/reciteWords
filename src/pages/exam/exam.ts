@@ -39,5 +39,10 @@ export class ExamPage {
     });
   }
   goLookPicWriteWord(){
+    this.navCtrl.push('LookPicWriteWordPage',{
+      'exam3':this.wordCard.exam3,
+      'all':this.all
+    })
+  }
 
-  }}
+}
