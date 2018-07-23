@@ -44,22 +44,5 @@ export class ExamPage {
       'all':this.all
     })
   }
-  goListenSoundTellPic(){
-    this.navCtrl.push('LookPicRecogWordPage',{
-      'exam1':this.wordCard.exam4,
-      'all':this.all
-    });
-  }
-  goForeignLanMotherLan(){
-    this.navCtrl.push('LookWordRecogPicPage',{
-      'exam2':this.wordCard.exam5,
-      'all':this.all
-    });
-  }
-  goMontherLanForeignLan(){
-    this.navCtrl.push('LookPicWriteWordPage',{
-      'exam3':this.wordCard.exam6,
-      'all':this.all
-    })
-  }
+
 }
