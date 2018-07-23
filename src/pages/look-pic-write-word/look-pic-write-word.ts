@@ -47,9 +47,9 @@ export class LookPicWriteWordPage {
         clearInterval(this.timer);
         for (let j = this.index; j < 10; j++) {
           let result = {
-            picSrc: this.question.picSrc,
-            meaning: this.question.meaning,
-            word: this.question.word,
+            picSrc: this.questions[j].picSrc,
+            meaning: this.questions[j].meaning,
+            word: this.questions[j].word,
             yourAnswer: '-'
           };
 
