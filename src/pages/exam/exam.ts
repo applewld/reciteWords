@@ -45,20 +45,20 @@ export class ExamPage {
     })
   }
   goListenSoundTellPic(){
-    this.navCtrl.push('LookPicRecogWordPage',{
-      'exam1':this.wordCard.exam4,
+    this.navCtrl.push('ListenSoundTellPicPage',{
+      'exam4':this.wordCard.exam4,
       'all':this.all
     });
   }
   goForeignLanMotherLan(){
-    this.navCtrl.push('LookWordRecogPicPage',{
-      'exam2':this.wordCard.exam5,
+    this.navCtrl.push('ForeignLanMotherLanPage',{
+      'exam5':this.wordCard.exam5,
       'all':this.all
     });
   }
   goMontherLanForeignLan(){
-    this.navCtrl.push('LookPicWriteWordPage',{
-      'exam3':this.wordCard.exam6,
+    this.navCtrl.push('MontherLanForeignLanPage',{
+      'exam6':this.wordCard.exam6,
       'all':this.all
     })
   }

@@ -20,9 +20,8 @@
     "exam2":"看词识图",
     "exam3":"看图写词",
     "exam4":"听音识图",
-    "exam5":"看图读词",
-    "exam6":"外语母语",
-    "exam7":"母语外语",
+    "exam5":"外语母语",
+    "exam6":"母语外语",
     "progress":"进度",
     "score":"得分",
     "over":"已结束",
@@ -299,6 +298,94 @@
             "meaning":"公牛",
             "picSrc":"../../assets/imgs/animal/bull.png"
           }
+        ],
+        "exam4":[
+
+        ],
+        "exam5":[
+          {
+            "word":"bear",
+            "option1":"熊",
+            "option2":"山羊",
+            "option3":"狮子",
+            "option4":"公牛",
+            "selected":"熊"
+          },
+          {
+            "word":"bull",
+            "option1":"熊",
+            "option2":"山羊",
+            "option3":"狮子",
+            "option4":"公牛",
+            "selected":"公牛"
+          },
+          {
+            "word":"goat",
+            "option1":"熊",
+            "option2":"山羊",
+            "option3":"狮子",
+            "option4":"公牛",
+            "selected":"山羊"
+          },
+          {
+            "word":"lion",
+            "option1":"熊",
+            "option2":"山羊",
+            "option3":"狮子",
+            "option4":"公牛",
+            "selected":"狮子"
+          },
+          {
+            "word":"wolf",
+            "option1":"狼",
+            "option2":"山羊",
+            "option3":"狮子",
+            "option4":"公牛",
+            "selected":"狼"
+          },
+          {
+            "word":"tiger",
+            "option1":"熊",
+            "option2":"山羊",
+            "option3":"老虎",
+            "option4":"公牛",
+            "selected":"老虎"
+          },
+          {
+            "word":"zebra",
+            "option1":"狼",
+            "option2":"斑马",
+            "option3":"狮子",
+            "option4":"公牛",
+            "selected":"斑马"
+          },
+          {
+            "word":"lion",
+            "option1":"熊",
+            "option2":"山羊",
+            "option3":"狮子",
+            "option4":"公牛",
+            "selected":"狮子"
+          },
+          {
+            "word":"goat",
+            "option1":"狼",
+            "option2":"山羊",
+            "option3":"狮子",
+            "option4":"公牛",
+            "selected":"山羊"
+          },
+          {
+            "word":"panda",
+            "option1":"熊",
+            "option2":"山羊",
+            "option3":"老虎",
+            "option4":"熊猫",
+            "selected":"熊猫"
+          }
+        ],
+        "exam6":[
+          
         ]
       },
       {
@@ -986,9 +1073,8 @@
     "exam2":"Word -> Image",
     "exam3":"Image -> Write",
     "exam4":"Sound -> Image",
-    "exam5":"Image -> Read",
+    "exam5":"",
     "exam6":"",
-    "exam7":"",
     "progress":"Progress",
     "score":"Score",
     "over":"over",
@@ -1021,7 +1107,7 @@
           },
           {
             "word": "panda",
-            "meaning": "熊猫",
+            "meaning": "panda",
             "picSrc": "../../assets/imgs/animal/panda.png"
           },
           {
