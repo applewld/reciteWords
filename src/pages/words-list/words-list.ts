@@ -37,4 +37,7 @@ export class WordsListPage {
       'all':this.all
     });
   }
+  goAddWord(){
+    this.navCtrl.push('AddWordPage');
+  }
 }
