@@ -25,30 +25,7 @@ export class LookWordRecogPicPage {
     option4:'',
     selected:''
   };
-  // question:any={
-  //   english:'',
-  //   option1:{
-  //     value:'',
-  //     src:'',
-  //     TOF:false
-  //   },
-  //   option2:{
-  //     value:'',
-  //     src:'',
-  //     TOF:false
-  //   },
-  //   option3:{
-  //     value:'',
-  //     src:'',
-  //     TOF:false
-  //   },
-  //   option4:{
-  //     value:'',
-  //     src:'',
-  //     TOF:false
-  //   }
-  // };
-  // wordCard:any;
+
   selected:any='-';
   index:any=0;
   score:any=0;
@@ -62,13 +39,7 @@ export class LookWordRecogPicPage {
   }
 
   ionViewDidLoad() {
-    // console.log('ionViewDidLoad LookWordRecogPicPage');
-    // this.questions=this.wordCard.questions2;
     this.question=this.questions[0];
-    // this.question.option1.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option1.value+'.png';
-    // this.question.option2.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option2.value+'.png';
-    // this.question.option3.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option3.value+'.png';
-    // this.question.option4.src='../../assets/imgs/'+this.wordCard.english+'/'+this.question.option4.value+'.png';
     this.timego();
   }
 

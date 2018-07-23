@@ -247,6 +247,58 @@
             "option4":"../../assets/imgs/animal/zebra.png",
             "selected":"../../assets/imgs/animal/tiger.png"
           }
+        ],
+        "exam3":[
+          {
+            "word":"bear",
+            "meaning":"熊",
+            "picSrc":"../../assets/imgs/animal/bear.png"
+          },
+          {
+            "word":"bull",
+            "meaning":"公牛",
+            "picSrc":"../../assets/imgs/animal/bull.png"
+          },
+          {
+            "word":"goat",
+            "meaning":"山羊",
+            "picSrc":"../../assets/imgs/animal/goat.png"
+          },
+          {
+            "word":"lion",
+            "meaning":"狮子",
+            "picSrc":"../../assets/imgs/animal/lion.png"
+          },
+          {
+            "word":"zebra",
+            "meaning":"斑马",
+            "picSrc":"../../assets/imgs/animal/zebra.png"
+          },
+          {
+            "word":"panda",
+            "meaning":"熊猫",
+            "picSrc":"../../assets/imgs/animal/panda.png"
+          },
+          {
+            "word":"tiger",
+            "meaning":"老虎",
+            "picSrc":"../../assets/imgs/animal/tiger.png"
+          },
+          {
+            "word":"bear",
+            "meaning":"熊",
+            "picSrc":"../../assets/imgs/animal/bear.png"
+          },
+          {
+            "word":"lion",
+            "meaning":"狮子",
+            "picSrc":"../../assets/imgs/animal/lion.png"
+          },
+          {
+            "word":"bull",
+            "meaning":"公牛",
+            "picSrc":"../../assets/imgs/animal/bull.png"
+          }
         ]
       },
       {
