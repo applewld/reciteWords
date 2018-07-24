@@ -385,7 +385,86 @@
           }
         ],
         "exam6":[
-          
+          {
+            "word":"熊",
+            "option1":"bear",
+            "option2":"goat",
+            "option3":"lion",
+            "option4":"bull",
+            "selected":"bear"
+          },
+          {
+            "word":"山羊",
+            "option1":"bear",
+            "option2":"goat",
+            "option3":"lion",
+            "option4":"bull",
+            "selected":"goat"
+          },
+          {
+            "word":"狮子",
+            "option1":"bear",
+            "option2":"goat",
+            "option3":"lion",
+            "option4":"bull",
+            "selected":"lion"
+          },
+          {
+            "word":"公牛",
+            "option1":"bear",
+            "option2":"goat",
+            "option3":"lion",
+            "option4":"bull",
+            "selected":"bull"
+          },
+          {
+            "word":"熊猫",
+            "option1":"panda",
+            "option2":"goat",
+            "option3":"tiger",
+            "option4":"bull",
+            "selected":"panda"
+          },
+          {
+            "word":"老虎",
+            "option1":"bear",
+            "option2":"goat",
+            "option3":"lion",
+            "option4":"tiger",
+            "selected":"tiger"
+          },
+          {
+            "word":"狼",
+            "option1":"panda",
+            "option2":"wolf",
+            "option3":"tiger",
+            "option4":"bull",
+            "selected":"wolf"
+          },
+          {
+            "word":"斑马",
+            "option1":"panda",
+            "option2":"goat",
+            "option3":"tiger",
+            "option4":"zebra",
+            "selected":"zebra"
+          },
+          {
+            "word":"狮子",
+            "option1":"bear",
+            "option2":"goat",
+            "option3":"lion",
+            "option4":"tiger",
+            "selected":"lion"
+          },
+          {
+            "word":"山羊",
+            "option1":"panda",
+            "option2":"wolf",
+            "option3":"tiger",
+            "option4":"goat",
+            "selected":"goat"
+          }
         ]
       },
       {
