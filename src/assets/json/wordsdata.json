@@ -35,47 +35,56 @@
           {
             "word": "bear",
             "meaning": "熊",
-            "picSrc": "../../assets/imgs/animal/bear.png"
+            "picSrc": "../../assets/imgs/animal/bear.png",
+            "audioSrc":"../../assets/audio/animal/bear.mp3"
           },
           {
             "word": "bull",
             "meaning": "公牛",
-            "picSrc": "../../assets/imgs/animal/bull.png"
+            "picSrc": "../../assets/imgs/animal/bull.png",
+            "audioSrc":"../../assets/audio/animal/bull.mp3"
           },
           {
             "word": "goat",
             "meaning": "山羊",
-            "picSrc": "../../assets/imgs/animal/goat.png"
+            "picSrc": "../../assets/imgs/animal/goat.png",
+            "audioSrc":"../../assets/audio/animal/goat.mp3"
           },
           {
             "word": "lion",
             "meaning": "狮子",
-            "picSrc": "../../assets/imgs/animal/lion.png"
+            "picSrc": "../../assets/imgs/animal/lion.png",
+            "audioSrc":"../../assets/audio/animal/lion.mp3"
           },
           {
             "word": "panda",
             "meaning": "熊猫",
-            "picSrc": "../../assets/imgs/animal/panda.png"
+            "picSrc": "../../assets/imgs/animal/panda.png",
+            "audioSrc":"../../assets/audio/animal/panda.mp3"
           },
           {
             "word": "tiger",
             "meaning": "老虎",
-            "picSrc": "../../assets/imgs/animal/tiger.png"
+            "picSrc": "../../assets/imgs/animal/tiger.png",
+            "audioSrc":"../../assets/audio/animal/tiger.mp3"
           },
           {
             "word": "wolf",
             "meaning": "狼",
-            "picSrc": "../../assets/imgs/animal/wolf.png"
+            "picSrc": "../../assets/imgs/animal/wolf.png",
+            "audioSrc":"../../assets/audio/animal/wolf.mp3"
           },
           {
             "word": "zebra",
             "meaning": "斑马",
-            "picSrc": "../../assets/imgs/animal/zebra.png"
+            "picSrc": "../../assets/imgs/animal/zebra.png",
+            "audioSrc":"../../assets/audio/animal/zebra.mp3"
           }
         ],
         "exam1":[
           {
               "picSrc":"../../assets/imgs/animal/bear.png",
+              "audioSrc":"../../assets/audio/animal/bear.mp3",
               "option1":"bull",
               "option2":"bear",
               "option3":"goat",
@@ -85,6 +94,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/bull.png",
+            "audioSrc":"../../assets/audio/animal/bull.mp3",
             "option1":"bull",
             "option2":"bear",
             "option3":"goat",
@@ -94,6 +104,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/goat.png",
+            "audioSrc":"../../assets/audio/animal/goat.mp3",
             "option1":"bull",
             "option2":"bear",
             "option3":"goat",
@@ -103,6 +114,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/lion.png",
+            "audioSrc":"../../assets/audio/animal/lion.mp3",
             "option1":"lion",
             "option2":"tiger",
             "option3":"wolf",
@@ -112,6 +124,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/zebra.png",
+            "audioSrc":"../../assets/audio/animal/zebra.mp3",
             "option1":"lion",
             "option2":"tiger",
             "option3":"wolf",
@@ -121,6 +134,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/wolf.png",
+            "audioSrc":"../../assets/audio/animal/wolf.mp3",
             "option1":"lion",
             "option2":"tiger",
             "option3":"wolf",
@@ -130,6 +144,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/panda.png",
+            "audioSrc":"../../assets/audio/animal/panda.mp3",
             "option1":"bull",
             "option2":"bear",
             "option3":"panda",
@@ -139,6 +154,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/zebra.png",
+            "audioSrc":"../../assets/audio/animal/zebra.mp3",
             "option1":"lion",
             "option2":"tiger",
             "option3":"panda",
@@ -148,6 +164,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/tiger.png",
+            "audioSrc":"../../assets/audio/animal/tiger.mp3",
             "option1":"zebra",
             "option2":"tiger",
             "option3":"wolf",
@@ -157,6 +174,7 @@
           },
           {
             "picSrc":"../../assets/imgs/animal/wolf.png",
+            "audioSrc":"../../assets/audio/animal/wolf.mp3",
             "option1":"lion",
             "option2":"zebra",
             "option3":"wolf",

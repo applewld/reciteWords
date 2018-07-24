@@ -14,35 +14,53 @@
 
 
 <ion-content>
-    <div id="details">
-      <div>
-        <span id="schedule">进度：{{index}}/10</span>
-        <span id="overtime">00:{{time}}</span>
-      </div>
-      <div>
-        <span id="score">得分：<span style="color: #f00 !important;">{{score}}</span>/100</span>
-        <span id="end" [hidden]="!over">已结束</span>
-      </div>
+  <div id="details">
+    <div>
+      <span id="schedule">进度：{{index}}/10</span>
+      <span id="overtime">00:{{time}}</span>
     </div>
-    <div id="test" [hidden]="over">
-      <div id="pic"><img src="{{question.picSrc}}"></div>
-      <div class="option" [style.background-color]="selected1 ? '#ff6b00': '#204b6b'" (click)="select1()"><span>{{question.option1}}</span></div>
-      <div class="option" [style.background-color]="selected2 ? '#ff6b00': '#204b6b'" (click)="select2()"><span>{{question.option2}}</span></div>
-      <div class="option" [style.background-color]="selected3 ? '#ff6b00': '#204b6b'" (click)="select3()"><span>{{question.option3}}</span></div>
-      <div class="option" [style.background-color]="selected4 ? '#ff6b00': '#204b6b'" (click)="select4()"><span>{{question.option4}}</span></div>
-      <div id="sub" (click)="nextQuestion()"><span>提交</span></div>
+    <div>
+      <span id="score">得分：
+        <span style="color: #f00 !important;">{{score}}</span>/100</span>
+      <span id="end" [hidden]="!over">已结束</span>
     </div>
+  </div>
+  <div id="test" [hidden]="over">
+    <div id="pic">
+      <img src="{{question.picSrc}}">
+    </div>
+    <div class="option" [style.background-color]="selected1 ? '#ff6b00': '#204b6b'" (click)="select1()">
+      <span>{{question.option1}}</span>
+    </div>
+    <div class="option" [style.background-color]="selected2 ? '#ff6b00': '#204b6b'" (click)="select2()">
+      <span>{{question.option2}}</span>
+    </div>
+    <div class="option" [style.background-color]="selected3 ? '#ff6b00': '#204b6b'" (click)="select3()">
+      <span>{{question.option3}}</span>
+    </div>
+    <div class="option" [style.background-color]="selected4 ? '#ff6b00': '#204b6b'" (click)="select4()">
+      <span>{{question.option4}}</span>
+    </div>
+    <div id="sub" (click)="nextQuestion()">
+      <span>提交</span>
+    </div>
+  </div>
 
-    <div id="result" [hidden]="!over">
-        <ion-list>
-          <ion-item *ngFor="let result of results" style="padding: 1px;background-color: #fff">
-              <div id="resultImg"><img src="{{result.src}}"></div>
-              <div id="resultText">
-                <span [style.color]="(result.trueAnswer==result.yourAnswer) ?'green':'red'">{{(result?.yourAnswer)?(result?.yourAnswer):'-'}}</span>
-                <span>{{result.trueAnswer}}</span>
-                <span>{{result.meaning}}</span>
-              </div>
-          </ion-item>
-        </ion-list>
-    </div>
+  <div id="result" [hidden]="!over">
+    <ion-list>
+      <ion-item *ngFor="let result of results;index as i;" style="padding: 1px;background-color: #fff" (click)="playAudio(i)" class="result-item">
+        <div>
+          <div class="resultImg">
+            <img src="{{result.src}}">
+          </div>
+          <div class="resultText">
+            <audio src="{{result.audioSrc}}" controls="controls" preload class="word-audio" hidden></audio>
+            <span [style.color]="(result.trueAnswer==result.yourAnswer) ?'green':'red'">{{(result?.yourAnswer)?(result?.yourAnswer):'-'}}</span>
+            <span>{{result.trueAnswer}}</span>
+            <span>{{result.meaning}}</span>
+          </div>
+        </div>
+      </ion-item>
+    </ion-list>
+  </div>
 </ion-content>
