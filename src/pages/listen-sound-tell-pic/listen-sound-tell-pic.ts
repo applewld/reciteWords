@@ -60,7 +60,8 @@ export class ListenSoundTellPicPage {
             tValue: this.questions[j].word,
             ySrc: '../../assets/imgs/black.png',
             yValue: '-',
-            TOF: false
+            TOF: false,
+            audioSrc:this.questions[j].audioSrc
           };
 
           this.results.push(result);
@@ -131,7 +132,8 @@ export class ListenSoundTellPicPage {
       tValue: this.question.word,
       ySrc: (this.selected == '-') ? '../../assets/imgs/black.png' : this.selected,
       yValue: (this.selectedword == '-') ? '-' : (this.selectedword),
-      TOF: this.TOF
+      TOF: this.TOF,
+      audioSrc:this.question.audioSrc
     };
     this.results.push(result);
     this.selectedword = '-';
@@ -155,6 +157,14 @@ export class ListenSoundTellPicPage {
   }
   playAudio() {
     let audio = document.getElementById("word-audio") as HTMLAudioElement;
+    audio.play();
+  }
+  playResultAudio(i) {
+    (document.getElementsByClassName("result-item")[i] as HTMLElement).style.backgroundColor = "#ff6b00";
+    setTimeout(() => {
+      (document.getElementsByClassName("result-item")[i] as HTMLElement).style.backgroundColor = "#fff";
+    }, 1000);
+    let audio = document.getElementsByClassName("word-audio")[i] as HTMLAudioElement;
     audio.play();
   }
 }

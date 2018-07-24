@@ -38,18 +38,20 @@
   </div>
 
   <div id="result" [hidden]="!over">
-      <ion-list>
-        <ion-item *ngFor="let result of results;index as i;" style="padding: 1px;background-color: #fff"  (click)="playAudio(i)">
-          <div class="result-item">
-              <audio src="{{result.audioSrc}}" controls="controls" preload class="word-audio" hidden></audio>
-            <div class="resultImg"><img src="{{result.picSrc}}"></div>
-            <div class="resultText">
-              <span [style.color]="(result.word==result.yourAnswer) ?'green':'red'">{{result.yourAnswer}}</span>
-              <span>{{result.word}}</span>
-              <span>{{result.meaning}}</span>
-            </div>
+    <ion-list>
+      <ion-item *ngFor="let result of results;index as i;" style="padding: 1px;background-color: #fff" (click)="playAudio(i)">
+        <div class="result-item">
+          <audio src="{{result.audioSrc}}" controls="controls" preload class="word-audio" hidden></audio>
+          <div class="resultImg">
+            <img src="{{result.picSrc}}">
           </div>
-        </ion-item>
-      </ion-list>
+          <div class="resultText">
+            <span [style.color]="(result.word==result.yourAnswer) ?'green':'red'">{{result.yourAnswer}}</span>
+            <span>{{result.word}}</span>
+            <span>{{result.meaning}}</span>
+          </div>
+        </div>
+      </ion-item>
+    </ion-list>
   </div>
 </ion-content>
