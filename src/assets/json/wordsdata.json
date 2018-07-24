@@ -528,7 +528,8 @@
             "option2":"goat",
             "option3":"lion",
             "option4":"bull",
-            "selected":"bear"
+            "selected":"bear",
+            "audioSrc":"../../assets/audio/animal/bear.mp3"
           },
           {
             "word":"山羊",
@@ -536,7 +537,8 @@
             "option2":"goat",
             "option3":"lion",
             "option4":"bull",
-            "selected":"goat"
+            "selected":"goat",
+            "audioSrc":"../../assets/audio/animal/goat.mp3"
           },
           {
             "word":"狮子",
@@ -544,7 +546,8 @@
             "option2":"goat",
             "option3":"lion",
             "option4":"bull",
-            "selected":"lion"
+            "selected":"lion",
+            "audioSrc":"../../assets/audio/animal/lion.mp3"
           },
           {
             "word":"公牛",
@@ -552,7 +555,8 @@
             "option2":"goat",
             "option3":"lion",
             "option4":"bull",
-            "selected":"bull"
+            "selected":"bull",
+            "audioSrc":"../../assets/audio/animal/bull.mp3"
           },
           {
             "word":"熊猫",
@@ -560,7 +564,8 @@
             "option2":"goat",
             "option3":"tiger",
             "option4":"bull",
-            "selected":"panda"
+            "selected":"panda",
+            "audioSrc":"../../assets/audio/animal/panda.mp3"
           },
           {
             "word":"老虎",
@@ -568,7 +573,8 @@
             "option2":"goat",
             "option3":"lion",
             "option4":"tiger",
-            "selected":"tiger"
+            "selected":"tiger",
+            "audioSrc":"../../assets/audio/animal/tiger.mp3"
           },
           {
             "word":"狼",
@@ -576,7 +582,8 @@
             "option2":"wolf",
             "option3":"tiger",
             "option4":"bull",
-            "selected":"wolf"
+            "selected":"wolf",
+            "audioSrc":"../../assets/audio/animal/wolf.mp3"
           },
           {
             "word":"熊猫",
@@ -584,7 +591,8 @@
             "option2":"goat",
             "option3":"tiger",
             "option4":"bull",
-            "selected":"panda"
+            "selected":"panda",
+            "audioSrc":"../../assets/audio/animal/panda.mp3"
           },
           {
             "word":"老虎",
@@ -592,7 +600,8 @@
             "option2":"goat",
             "option3":"lion",
             "option4":"tiger",
-            "selected":"tiger"
+            "selected":"tiger",
+            "audioSrc":"../../assets/audio/animal/tiger.mp3"
           },
           {
             "word":"狼",
@@ -600,7 +609,8 @@
             "option2":"wolf",
             "option3":"tiger",
             "option4":"bull",
-            "selected":"wolf"
+            "selected":"wolf",
+            "audioSrc":"../../assets/audio/animal/wolf.mp3"
           }
         ]
       },

@@ -49,7 +49,8 @@
   </div>
 
   <div id="result" [hidden]="!over">
-    <div id="result-item" *ngFor="let result of results">
+    <div class="result-item" *ngFor="let result of results;index as i;" (click)="playAudio(i)">
+      <audio src="{{result.audioSrc}}" controls="controls" preload class="word-audio" hidden></audio>
       <div>{{result.word}}</div>
       <div>{{result.selected}}</div>
       <div [style.color]="(result.selected==result.yourAnswer) ?'green':'red'">{{result.yourAnswer}}</div>
