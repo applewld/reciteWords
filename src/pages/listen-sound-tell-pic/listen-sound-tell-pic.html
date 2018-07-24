@@ -14,5 +14,42 @@
 
 
 <ion-content>
+  <div id="details">
+    <div>
+      <span id="schedule">进度：{{index}}/10</span>
+      <span id="overtime">00:{{time}}</span>
+    </div>
+    <div>
+      <span id="score">得分：
+        <span style="color: #f00 !important;">{{score}}</span>/100</span>
+      <span id="end" [hidden]="!over">已结束</span>
+    </div>
+  </div>
 
+  <div id="test" [hidden]="over">
+    <div id="question">
+      <ion-icon name="volume-up" (click)="playAudio()" style="color: #427feb;"></ion-icon>
+      <audio src="{{question.audioSrc}}" controls="controls" preload id="word-audio" hidden></audio>
+    </div>
+    <div id="option">
+      <img id="option1" src="{{question.option1}}" (click)="select1()">
+      <img id="option2" src="{{question.option2}}" (click)="select2()">
+      <img id="option3" src="{{question.option3}}" (click)="select3()">
+      <img id="option4" src="{{question.option4}}" (click)="select4()">
+    </div>
+    <div id="sub" (click)="nextQuestion()">提交</div>
+  </div>
+
+  <div id="result" [hidden]="!over">
+    <div id="answer" *ngFor="let result of results">
+      <div id="trueAnswer">
+        <img src="{{result.tSrc}}">
+        <span>{{result.tValue}}</span>
+      </div>
+      <div id="yourAnswer">
+        <img [style.border-color]="result.TOF?'green':'red'" src="{{result.ySrc}}">
+        <span [style.color]="result.TOF?'green':'red'">{{result.yValue}}</span>
+      </div>
+    </div>
+  </div>
 </ion-content>
