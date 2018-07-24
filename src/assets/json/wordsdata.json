@@ -279,52 +279,62 @@
           {
             "word":"bear",
             "meaning":"熊",
-            "picSrc":"../../assets/imgs/animal/bear.png"
+            "picSrc":"../../assets/imgs/animal/bear.png",
+            "audioSrc":"../../assets/audio/animal/bear.mp3"
           },
           {
             "word":"bull",
             "meaning":"公牛",
-            "picSrc":"../../assets/imgs/animal/bull.png"
+            "picSrc":"../../assets/imgs/animal/bull.png",
+            "audioSrc":"../../assets/audio/animal/bull.mp3"
           },
           {
             "word":"goat",
             "meaning":"山羊",
-            "picSrc":"../../assets/imgs/animal/goat.png"
+            "picSrc":"../../assets/imgs/animal/goat.png",
+            "audioSrc":"../../assets/audio/animal/goat.mp3"
           },
           {
             "word":"lion",
             "meaning":"狮子",
-            "picSrc":"../../assets/imgs/animal/lion.png"
+            "picSrc":"../../assets/imgs/animal/lion.png",
+            "audioSrc":"../../assets/audio/animal/lion.mp3"
           },
           {
             "word":"zebra",
             "meaning":"斑马",
-            "picSrc":"../../assets/imgs/animal/zebra.png"
+            "picSrc":"../../assets/imgs/animal/zebra.png",
+            "audioSrc":"../../assets/audio/animal/zebra.mp3"
           },
           {
             "word":"panda",
             "meaning":"熊猫",
-            "picSrc":"../../assets/imgs/animal/panda.png"
+            "picSrc":"../../assets/imgs/animal/panda.png",
+            "audioSrc":"../../assets/audio/animal/panda.mp3"
           },
           {
             "word":"tiger",
             "meaning":"老虎",
-            "picSrc":"../../assets/imgs/animal/tiger.png"
+            "picSrc":"../../assets/imgs/animal/tiger.png",
+            "audioSrc":"../../assets/audio/animal/tiger.mp3"
           },
           {
             "word":"bear",
             "meaning":"熊",
-            "picSrc":"../../assets/imgs/animal/bear.png"
+            "picSrc":"../../assets/imgs/animal/bear.png",
+            "audioSrc":"../../assets/audio/animal/bear.mp3"
           },
           {
             "word":"lion",
             "meaning":"狮子",
-            "picSrc":"../../assets/imgs/animal/lion.png"
+            "picSrc":"../../assets/imgs/animal/lion.png",
+            "audioSrc":"../../assets/audio/animal/lion.mp3"
           },
           {
             "word":"bull",
             "meaning":"公牛",
-            "picSrc":"../../assets/imgs/animal/bull.png"
+            "picSrc":"../../assets/imgs/animal/bull.png",
+            "audioSrc":"../../assets/audio/animal/bull.mp3"
           }
         ],
         "exam4":[

@@ -75,22 +75,22 @@ page-look-pic-write-word {
         line-height: 50px;
       }
 
-      #resultImg{
+      .resultImg{
         display: inline-block;
         width: 90px;
         height: 90px;
       }
-      #resultText{
+      .resultText{
         float: right;
         width: 70%;
       }
-      #resultText{
+      .resultText{
         text-align: center;
         display: flex;
         flex-flow: column wrap;
         align-content: space-between;
       }
-      #resultText span{
+      .resultText span{
         line-height: 30px;
         font-size: 2rem;
       }

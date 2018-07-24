@@ -20,6 +20,7 @@ export class LookPicWriteWordPage {
     word: '',
     meaning: '',
     picSrc: '',
+    audioSrc: ''
   };
 
   over: any = false;
@@ -50,7 +51,8 @@ export class LookPicWriteWordPage {
             picSrc: this.questions[j].picSrc,
             meaning: this.questions[j].meaning,
             word: this.questions[j].word,
-            yourAnswer: '-'
+            yourAnswer: '-',
+            audioSrc: this.questions[j].audioSrc
           };
 
           this.results.push(result);
@@ -72,19 +74,28 @@ export class LookPicWriteWordPage {
       picSrc: this.question.picSrc,
       meaning: this.question.meaning,
       word: this.question.word,
-      yourAnswer: yourAnswer
+      yourAnswer: yourAnswer,
+      audioSrc: this.question.audioSrc
     }
     console.log(result)
     this.results.push(result);
     this.index++;
     if (this.index < 10) {
       this.question = this.questions[this.index];
-      (document.getElementById("yourAnswer")as HTMLInputElement).value="";
+      (document.getElementById("yourAnswer") as HTMLInputElement).value = "";
     }
     else {
       this.over = true;
       clearInterval(this.timer);
       console.log(this.results);
     }
+  }
+  playAudio(i) {
+    (document.getElementsByClassName("result-item")[i] as HTMLElement).style.backgroundColor = "#ff6b00";
+    setTimeout(() => {
+      (document.getElementsByClassName("result-item")[i] as HTMLElement).style.backgroundColor = "#fff";
+    }, 1000);
+    let audio = document.getElementsByClassName("word-audio")[i] as HTMLAudioElement;
+    audio.play();
   }
 }
