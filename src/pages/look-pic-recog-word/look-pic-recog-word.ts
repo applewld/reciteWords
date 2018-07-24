@@ -133,9 +133,9 @@ export class LookPicRecogWordPage {
   }
 
   playAudio(i) {
-    (document.getElementsByClassName("resultText")[i] as HTMLElement).style.backgroundColor = "#ff6b00";
+    (document.getElementsByClassName("result-item")[i] as HTMLElement).style.backgroundColor = "#ff6b00";
     setTimeout(() => {
-      (document.getElementsByClassName("resultText")[i] as HTMLElement).style.backgroundColor = "#fff";
+      (document.getElementsByClassName("result-item")[i] as HTMLElement).style.backgroundColor = "#fff";
     }, 1000);
     let audio = document.getElementsByClassName("word-audio")[i] as HTMLAudioElement;
     audio.play();

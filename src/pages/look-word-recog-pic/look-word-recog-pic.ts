@@ -23,7 +23,8 @@ export class LookWordRecogPicPage {
     option2:'',
     option3:'',
     option4:'',
-    selected:''
+    selected:'',
+    audioSrc:''
   };
 
   selected:any='-';
@@ -56,7 +57,8 @@ export class LookWordRecogPicPage {
             tValue:this.questions[j].word,
             ySrc:'../../assets/imgs/black.png',
             yValue:'-',
-            TOF:false
+            TOF:false,
+            audioSrc:this.questions[j].audioSrc
           };
 
           this.results.push(result);
@@ -131,7 +133,8 @@ export class LookWordRecogPicPage {
       tValue:this.question.word,
       ySrc:(this.selected=='-')?'../../assets/imgs/black.png':this.selected,
       yValue:(this.selectedword=='-')?'-':(this.selectedword),
-      TOF:this.TOF
+      TOF:this.TOF,
+      audioSrc:this.question.audioSrc
     };
     this.results.push(result);
     this.selectedword='-';
@@ -153,4 +156,12 @@ export class LookWordRecogPicPage {
     }
   }
 
+  playAudio(i) {
+    (document.getElementsByClassName("result-item")[i] as HTMLElement).style.backgroundColor = "#ff6b00";
+    setTimeout(() => {
+      (document.getElementsByClassName("result-item")[i] as HTMLElement).style.backgroundColor = "#fff";
+    }, 1000);
+    let audio = document.getElementsByClassName("word-audio")[i] as HTMLAudioElement;
+    audio.play();
+  }
 }

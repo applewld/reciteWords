@@ -20,7 +20,8 @@
       <span id="overtime">00:{{time}}</span>
     </div>
     <div>
-      <span id="score">得分：<span style="color: #f00 !important;">{{score}}</span>/100</span>
+      <span id="score">得分：
+        <span style="color: #f00 !important;">{{score}}</span>/100</span>
       <span id="end" [hidden]="!over">已结束</span>
     </div>
   </div>
@@ -37,15 +38,18 @@
   </div>
 
   <div id="result" [hidden]="!over">
-      <div id="answer" *ngFor="let result of results">
-        <div id="trueAnswer">
+    <div class="answer" *ngFor="let result of results;index as i;" (click)="playAudio(i)">
+      <div class="result-item">
+        <audio src="{{result.audioSrc}}" controls="controls" preload class="word-audio" hidden></audio>
+        <div class="trueAnswer">
           <img src="{{result.tSrc}}">
           <span>{{result.tValue}}</span>
         </div>
-        <div id="yourAnswer">
+        <div class="yourAnswer">
           <img [style.border-color]="result.TOF?'green':'red'" src="{{result.ySrc}}">
           <span [style.color]="result.TOF?'green':'red'">{{result.yValue}}</span>
         </div>
       </div>
+    </div>
   </div>
 </ion-content>

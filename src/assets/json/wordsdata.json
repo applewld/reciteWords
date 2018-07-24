@@ -190,7 +190,8 @@
             "option2":"../../assets/imgs/animal/bull.png",
             "option3":"../../assets/imgs/animal/goat.png",
             "option4":"../../assets/imgs/animal/lion.png",
-            "selected":"../../assets/imgs/animal/bear.png"
+            "selected":"../../assets/imgs/animal/bear.png",
+            "audioSrc":"../../assets/audio/animal/bear.mp3"
           },
           {
             "word":"bull",
@@ -198,7 +199,8 @@
             "option2":"../../assets/imgs/animal/bull.png",
             "option3":"../../assets/imgs/animal/goat.png",
             "option4":"../../assets/imgs/animal/lion.png",
-            "selected":"../../assets/imgs/animal/bull.png"
+            "selected":"../../assets/imgs/animal/bull.png",
+            "audioSrc":"../../assets/audio/animal/bull.mp3"
           },
           {
             "word":"goat",
@@ -206,7 +208,8 @@
             "option2":"../../assets/imgs/animal/wolf.png",
             "option3":"../../assets/imgs/animal/goat.png",
             "option4":"../../assets/imgs/animal/bear.png",
-            "selected":"../../assets/imgs/animal/goat.png"
+            "selected":"../../assets/imgs/animal/goat.png",
+            "audioSrc":"../../assets/audio/animal/goat.mp3"
           },
           {
             "word":"lion",
@@ -214,7 +217,8 @@
             "option2":"../../assets/imgs/animal/bull.png",
             "option3":"../../assets/imgs/animal/bear.png",
             "option4":"../../assets/imgs/animal/lion.png",
-            "selected":"../../assets/imgs/animal/lion.png"
+            "selected":"../../assets/imgs/animal/lion.png",
+            "audioSrc":"../../assets/audio/animal/lion.mp3"
           },
           {
             "word":"zebra",
@@ -222,7 +226,8 @@
             "option2":"../../assets/imgs/animal/wolf.png",
             "option3":"../../assets/imgs/animal/bear.png",
             "option4":"../../assets/imgs/animal/zebra.png",
-            "selected":"../../assets/imgs/animal/zebra.png"
+            "selected":"../../assets/imgs/animal/zebra.png",
+            "audioSrc":"../../assets/audio/animal/zebra.mp3"
           },
           {
             "word":"panda",
@@ -230,7 +235,8 @@
             "option2":"../../assets/imgs/animal/wolf.png",
             "option3":"../../assets/imgs/animal/panda.png",
             "option4":"../../assets/imgs/animal/bear.png",
-            "selected":"../../assets/imgs/animal/panda.png"
+            "selected":"../../assets/imgs/animal/panda.png",
+            "audioSrc":"../../assets/audio/animal/panda.mp3"
           },
           {
             "word":"lion",
@@ -238,7 +244,8 @@
             "option2":"../../assets/imgs/animal/panda.png",
             "option3":"../../assets/imgs/animal/bear.png",
             "option4":"../../assets/imgs/animal/lion.png",
-            "selected":"../../assets/imgs/animal/lion.png"
+            "selected":"../../assets/imgs/animal/lion.png",
+            "audioSrc":"../../assets/audio/animal/lion.mp3"
           },
           {
             "word":"wolf",
@@ -246,7 +253,8 @@
             "option2":"../../assets/imgs/animal/wolf.png",
             "option3":"../../assets/imgs/animal/bear.png",
             "option4":"../../assets/imgs/animal/zebra.png",
-            "selected":"../../assets/imgs/animal/wolf.png"
+            "selected":"../../assets/imgs/animal/wolf.png",
+            "audioSrc":"../../assets/audio/animal/wolf.mp3"
           },
           {
             "word":"bull",
@@ -254,7 +262,8 @@
             "option2":"../../assets/imgs/animal/bull.png",
             "option3":"../../assets/imgs/animal/bear.png",
             "option4":"../../assets/imgs/animal/lion.png",
-            "selected":"../../assets/imgs/animal/bull.png"
+            "selected":"../../assets/imgs/animal/bull.png",
+            "audioSrc":"../../assets/audio/animal/bull.mp3"
           },
           {
             "word":"tiger",
@@ -262,7 +271,8 @@
             "option2":"../../assets/imgs/animal/wolf.png",
             "option3":"../../assets/imgs/animal/bear.png",
             "option4":"../../assets/imgs/animal/zebra.png",
-            "selected":"../../assets/imgs/animal/tiger.png"
+            "selected":"../../assets/imgs/animal/tiger.png",
+            "audioSrc":"../../assets/audio/animal/tiger.mp3"
           }
         ],
         "exam3":[

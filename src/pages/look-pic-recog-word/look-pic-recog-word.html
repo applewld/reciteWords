@@ -48,8 +48,8 @@
 
   <div id="result" [hidden]="!over">
     <ion-list>
-      <ion-item *ngFor="let result of results;index as i;" style="padding: 1px;background-color: #fff" (click)="playAudio(i)" class="result-item">
-        <div>
+      <ion-item *ngFor="let result of results;index as i;" style="padding: 1px;background-color: #fff" (click)="playAudio(i)" >
+        <div class="result-item">
           <div class="resultImg">
             <img src="{{result.src}}">
           </div>

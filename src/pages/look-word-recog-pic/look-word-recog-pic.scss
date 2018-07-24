@@ -74,18 +74,18 @@ page-look-word-recog-pic {
     line-height: 50px;
   }
 
-  #trueAnswer,#yourAnswer{
+  .trueAnswer,.yourAnswer{
     width: 150px;
     height: 170px;
     display: inline-block;
   }
 
-  #answer{
+  .answer{
     width: 305px;
     margin: auto;
     background-color: #fff;
   }
-  #answer span{
+  .answer span{
     line-height: 20px;
     text-align: center;
     width: 150px;
