@@ -46,7 +46,8 @@ export class ListenSoundTellPicPage {
   }
 
   ionViewDidEnter() {
-    this.playAudio();
+    let audio = document.getElementById("word-audio") as HTMLAudioElement;
+    audio.play();
   }
   timego() {
 
@@ -61,7 +62,7 @@ export class ListenSoundTellPicPage {
             ySrc: '../../assets/imgs/black.png',
             yValue: '-',
             TOF: false,
-            audioSrc:this.questions[j].audioSrc
+            audioSrc: this.questions[j].audioSrc
           };
 
           this.results.push(result);
@@ -133,7 +134,7 @@ export class ListenSoundTellPicPage {
       ySrc: (this.selected == '-') ? '../../assets/imgs/black.png' : this.selected,
       yValue: (this.selectedword == '-') ? '-' : (this.selectedword),
       TOF: this.TOF,
-      audioSrc:this.question.audioSrc
+      audioSrc: this.question.audioSrc
     };
     this.results.push(result);
     this.selectedword = '-';
@@ -147,7 +148,10 @@ export class ListenSoundTellPicPage {
       document.getElementById('option3').style.borderColor = '#fff';
       document.getElementById('option4').style.borderColor = '#fff';
       this.TOF = false;
-      setTimeout(this.playAudio,500);
+      setTimeout(() => {
+        let audio = document.getElementById("word-audio") as HTMLAudioElement;
+        audio.play();
+      }, 500);
     }
     else {
       this.over = true;
@@ -156,6 +160,10 @@ export class ListenSoundTellPicPage {
     }
   }
   playAudio() {
+    document.getElementById("play").style.visibility="hidden";
+    setTimeout(()=>{
+      document.getElementById("play").style.visibility="visible";
+    },100);
     let audio = document.getElementById("word-audio") as HTMLAudioElement;
     audio.play();
   }

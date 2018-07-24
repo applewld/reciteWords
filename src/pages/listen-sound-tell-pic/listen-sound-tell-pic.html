@@ -28,7 +28,7 @@
 
   <div id="test" [hidden]="over">
     <div id="question">
-      <ion-icon name="volume-up" (click)="playAudio()" style="color: #427feb;"></ion-icon>
+      <ion-icon name="volume-up" (click)="playAudio()" style="color: #427feb;" id="play"></ion-icon>
       <audio src="{{question.audioSrc}}" controls="controls" preload id="word-audio" hidden></audio>
     </div>
     <div id="option">
