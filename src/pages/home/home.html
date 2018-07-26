@@ -8,7 +8,7 @@
 
 <ion-content>
   <ion-list id="list">
-    <ion-item *ngFor="let wordCard of wordCards;index as i">
+    <ion-item *ngFor="let wordCard of wordCards;index as i" >
       <img src="{{wordCard.picSrc}}" (click)="goWordsList(wordCard)">
       <span>{{wordCard.meaning}}</span>
     </ion-item>

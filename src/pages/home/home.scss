@@ -1,15 +1,15 @@
 page-home {
   .toolbar-title-ios{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .toolbar-background-ios {
-    background: #999;
+    background: #2eb8b9;
   }
   .item-ios{
-    background-color: #999;
+    background-color:  #2eb8b9;
   }
   .content-ios {
-    background-color: #999;
+    background-color:  #2eb8b9;
   }
   .list-ios > .item-block{
     border-top: 0;
@@ -18,7 +18,7 @@ page-home {
     border-bottom: 0;
   }
   ion-header ion-icon {
-    color: #427feb;
+    color: #fafdfd;
     font-size: 2em;
     margin-left: 5px;
   }
@@ -31,6 +31,12 @@ page-home {
      display: block;
      margin: auto;
      border: 5px solid #fff;
+    border-radius:60%;
+  }
+  span{
+    font-size: 3rem;
+    display: block;
+    margin: 8px 0 0;
   }
   .item-ios {
     width: 50%;

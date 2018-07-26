@@ -38,12 +38,12 @@ export class WordPage {
     this.index = this.navParams.get('index');
     this.word = this.words[this.index];
     if (this.index === 0) {
-      document.getElementById('icon1').style.color = '#a9a9a9';
-      document.getElementById('icon2').style.color = '#427feb';
+      document.getElementById('icon1').style.color = '#222';
+      document.getElementById('icon2').style.color = '#f4f4f4';
     }
     else if (this.index === this.words.length - 1) {
-      document.getElementById('icon2').style.color = '#a9a9a9';
-      document.getElementById('icon1').style.color = '#427feb';
+      document.getElementById('icon2').style.color = '#222';
+      document.getElementById('icon1').style.color = '#f4f4f4';
     }
   }
 
@@ -53,12 +53,12 @@ export class WordPage {
       this.word = this.words[this.index];
     }
     if (this.index === 0) {
-      document.getElementById('icon1').style.color = '#a9a9a9';
-      document.getElementById('icon2').style.color = '#427feb';
+      document.getElementById('icon1').style.color = '#222';
+      document.getElementById('icon2').style.color = '#f4f4f4';
     }
     else {
-      document.getElementById('icon2').style.color = '#427feb';
-      document.getElementById('icon1').style.color = '#427feb';
+      document.getElementById('icon2').style.color = '#f4f4f4';
+      document.getElementById('icon1').style.color = '#f4f4f4';
     }
     document.getElementById("icon1").style.visibility="hidden";
     setTimeout(()=>{
@@ -76,12 +76,12 @@ export class WordPage {
       this.word = this.words[this.index];
     }
     if (this.index === this.words.length - 1) {
-      document.getElementById('icon2').style.color = '#a9a9a9';
-      document.getElementById('icon1').style.color = '#427feb';
+      document.getElementById('icon2').style.color = '#222';
+      document.getElementById('icon1').style.color = '#f4f4f4';
     }
     else {
-      document.getElementById('icon2').style.color = '#427feb';
-      document.getElementById('icon1').style.color = '#427feb';
+      document.getElementById('icon2').style.color = '#f4f4f4';
+      document.getElementById('icon1').style.color = '#f4f4f4';
     }
     document.getElementById("icon2").style.visibility="hidden";
     setTimeout(()=>{

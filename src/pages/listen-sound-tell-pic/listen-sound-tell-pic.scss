@@ -3,28 +3,28 @@ page-listen-sound-tell-pic {
         font-size: 2rem;
       }
       .toolbar-background-ios {
-        background: #999;
+        background: #2eb8b9;
       }
       .item-ios{
-        background-color: #999;
+        background-color: #2eb8b9;
       }
       .content-ios {
-        background-color: #999;
+        background-color: #2eb8b9;
       }
       ion-header .toolbar-title-ios{
         color: #ffffff;
       }
-    
+
       #details{
         width: 94%;
         height: 60px;
-        background-color: black;
+        background-color: #fff;
         margin: 20px auto 10px;
         border-radius: 5px;
         padding: 5px 25px;
       }
       #schedule{
-        color: #fff;
+        color: #222;
         line-height: 30px;
       }
       #overtime{
@@ -33,14 +33,14 @@ page-listen-sound-tell-pic {
         line-height: 30px;
       }
       #score{
-        color: #fff;
+        color: #222;
         line-height: 20px;
       }
       #end{
         color: #f00;
         float: right;
       }
-    
+
       #option{
         margin: auto;
         width: 300px;
@@ -52,6 +52,7 @@ page-listen-sound-tell-pic {
         height: 150px;
         display: block;
         border: 5px solid #fff;
+        border-radius:10px;
       }
       #question{
         width: 300px;
@@ -68,18 +69,18 @@ page-listen-sound-tell-pic {
         background-color: #000;
         border-radius: 5px;
         margin: 30px auto;
-        color: #427feb;
+        color: #fff;
         text-align: center;
         font-size: 30px;
         line-height: 50px;
       }
-    
+
       .trueAnswer,.yourAnswer{
         width: 150px;
         height: 170px;
         display: inline-block;
       }
-    
+
       .answer{
         width: 305px;
         margin: auto;

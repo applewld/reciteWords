@@ -1,16 +1,19 @@
 page-exam {
   .toolbar-background-ios{
-    background:gray;
+    background:#2eb8b9;
   }
   .toolbar-title-ios{
     color:white;
   }
   .content-ios{
-    background: grey;
+    background:#2eb8b9;
   }
   ion-header ion-icon{
-    font-size:2em;
-    color:#427feb;
+    font-size:2.5em;
+    color:#fafdfd;
+  }
+  .toolbar-title-ios{
+    font-size: 2.5rem;
   }
   //.scroll-content{
   //
@@ -20,12 +23,12 @@ page-exam {
   //}
   button{
     display: block;
-    background-color: mediumpurple;
+    background-color: #222;
     line-height:3;
     font-size: 20px;
     color:white;
     border-radius:10px;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 0px 100px;
     font-family: myFirstFont;
 

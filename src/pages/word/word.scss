@@ -1,19 +1,9 @@
 page-word {
-  //#back{
-  //  font-size: 40px;
-  //  position: absolute;
-  //  top: 3px;
-  //  left: 10px;
-  //  color: blue;
-  //}
-  //.back-button.show-back-button {
-  //  display: none;
-  //}
   .toolbar-title-ios{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .toolbar-background-ios {
-    background: #999;
+    background: #2eb8b9;
   }
   ion-header .toolbar-title-ios{
     color: #ffffff;
@@ -24,6 +14,7 @@ page-word {
     width: 250px;
     height: 250px;
     border: 8px solid #fff;
+    border-radius:60%;
   }
   #icon1 {
     display: inline-block;
@@ -31,24 +22,24 @@ page-word {
     position: absolute;
     top: 150px;
     left: 2%;
-    color: #427feb;
+    color: #f4f4f4;
   }
   #icon2 {
     display: inline-block;
     font-size: 3em;
     position: absolute;
     top: 150px;
-    color: #427feb;
+    color: #222222;
     right: 2%;
   }
 
   .content-ios {
-    background-color: #999;
+    background-color: #2eb8b9;
   }
 
   #englishWord{
     width: 65%;
-    background-color: #204b6b;
+    background-color: #222;
     border-radius: 10px;
     margin: auto;
     text-align: center;
@@ -58,7 +49,7 @@ page-word {
   }
   #soundmark{
     width: 65%;
-    background-color: #204b6b;
+    background-color: #222;
     border-radius: 10px;
     margin: 50px auto;
     text-align: center;
@@ -76,7 +67,7 @@ page-word {
   }
   .iicon{
     font-size: 6rem;
-    color: #427feb;
+    color: #fff;
   }
 
 }

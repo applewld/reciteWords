@@ -1,12 +1,13 @@
 page-setting {
   .toolbar-title-ios{
     color:white;
+    font-size: 2.5rem;
   }
   .toolbar-background-ios{
-    background-color: gray;
+    background-color: #2eb8b9;
   }
   .content-ios{
-    background-color: gray;
+    background-color: #2eb8b9;
   }
   //ion-icon:nth-child(1){
   //  font-size: 2em;
@@ -27,6 +28,6 @@ page-setting {
   //  color:#403c3c !important;
   //}
   page-setting .arrow{
-    color:gray;
+    color:#2eb8b9;
   }
 }

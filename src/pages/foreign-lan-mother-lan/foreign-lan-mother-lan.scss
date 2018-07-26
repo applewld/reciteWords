@@ -3,13 +3,13 @@ page-foreign-lan-mother-lan {
     font-size: 2rem;
   }
   .toolbar-background-ios {
-    background: #999;
+    background: #2eb8b9;
   }
   .item-ios {
-    background-color: #999;
+    background-color: #2eb8b9;
   }
   .content-ios {
-    background-color: #999;
+    background-color: #2eb8b9;
   }
   ion-header .toolbar-title-ios {
     color: #ffffff;
@@ -17,13 +17,13 @@ page-foreign-lan-mother-lan {
   #details {
     width: 94%;
     height: 60px;
-    background-color: black;
+    background-color: #fff;
     margin: 20px auto 10px;
     border-radius: 5px;
     padding: 5px 25px;
   }
   #schedule {
-    color: #fff;
+    color: #222;
     line-height: 30px;
   }
   #overtime {
@@ -32,7 +32,7 @@ page-foreign-lan-mother-lan {
     line-height: 30px;
   }
   #score {
-    color: #fff;
+    color: #222;
     line-height: 20px;
   }
   #end {
@@ -44,20 +44,21 @@ page-foreign-lan-mother-lan {
     width: 90%;
     height: 8%;
     margin: 8px auto;
-    background-color: #204b6b;
+    background-color: #fff;
     text-align: center;
     color: #fff;
     font-size: 4rem;
   }
   #sub {
-    width: 100%;
-    background: black;
-    height: 10%;
-    color: #427feb;
+    width: 94%;
+    height: 50px;
+    background-color: #000;
+    border-radius: 5px;
+    margin: 30px auto;
+    color: #fff;
     text-align: center;
-    font-size: 200%;
-    padding: 3%;
-    margin-top: 80px;
+    font-size: 30px;
+    line-height: 50px;
   }
   #text {
     margin-bottom: 100px;
