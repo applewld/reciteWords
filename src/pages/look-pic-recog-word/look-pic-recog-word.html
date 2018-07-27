@@ -16,12 +16,13 @@
 <ion-content>
   <div id="details">
     <div>
-      <span id="schedule">进度：{{index}}/10</span>
+      <span id="schedule">进度</span>
+      <span id="score">得分</span>
       <span id="overtime">00:{{time}}</span>
     </div>
     <div>
-      <span id="score">得分：
-        <span style="color: #f00 !important;">{{score}}</span>/100</span>
+      <span style="color: #f00 !important; margin-right: 60px;">{{index}}/10</span>
+      <span style="color: #f00 !important; margin-right: 60px;">{{score}}/100</span>
       <span id="end" [hidden]="!over">已结束</span>
     </div>
   </div>
@@ -41,11 +42,10 @@
     <div class="option" [style.background-color]="selected4 ? '#ff6b00': '#204b6b'" (click)="select4()">
       <span>{{question.option4}}</span>
     </div>
-    <div id="sub" (click)="nextQuestion()">
-      <span>提交</span>
-    </div>
   </div>
-
+  <div id="sub" [hidden]="over" (click)="nextQuestion()">
+    <span>提交</span>
+  </div>
   <div id="result" [hidden]="!over">
     <ion-list>
       <ion-item *ngFor="let result of results;index as i;" style="padding: 1px;background-color: #fff" (click)="playAudio(i)" >

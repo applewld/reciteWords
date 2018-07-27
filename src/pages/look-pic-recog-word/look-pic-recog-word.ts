@@ -34,7 +34,7 @@ export class LookPicRecogWordPage {
   selected3: boolean = false;
   selected4: boolean = false;
   index: any = 0;
-  time: any = 30;
+  time: any = 5000;
   timer: any;
   yourAnswer: any;
 

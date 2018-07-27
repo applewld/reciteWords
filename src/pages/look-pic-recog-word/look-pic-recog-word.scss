@@ -16,7 +16,7 @@ page-look-pic-recog-word {
   }
 
   #details{
-    width: 94%;
+    width: 80%;
     height: 60px;
     background-color: #fafdfd;
     margin: 20px auto 10px;
@@ -26,6 +26,7 @@ page-look-pic-recog-word {
   #schedule{
     color: #222;
     line-height: 30px;
+    margin-right: 60px;
   }
   #overtime{
     float: right;
@@ -35,6 +36,7 @@ page-look-pic-recog-word {
   #score{
     color: #222;
     line-height: 20px;
+    margin-right: 60px;
   }
   #pic{
     width: 250px;
@@ -42,29 +44,38 @@ page-look-pic-recog-word {
     margin: auto;
   }
   #pic img{
-    border: 5px solid#fff;
+    border: 5px solid#2eb8b9;
     border-radius:10px;
   }
   .option{
     border-radius: 5px;
-    width: 90%;
-    height: 8%;
-    margin: 8px auto;
+    width: 75%;
+    height: 9%;
+    margin: 10px 45px 5px 45px;
     background-color: #222;
     text-align: center;
     color: #fff;
     font-size: 4rem;
+    float: left;
   }
   #sub{
-    width: 94%;
+    width: 50%;
     height: 50px;
     background-color: #000;
-    border-radius: 5px;
-    margin: 30px auto;
+    border-radius: 50px;
+    margin: 20px auto;
     color: #fff;
     text-align: center;
     font-size: 30px;
     line-height: 50px;
+  }
+  #test{
+    width: 80%;
+    height: 75%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 2%;
   }
   #end{
     color: #f00;
