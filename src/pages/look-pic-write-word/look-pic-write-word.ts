@@ -26,7 +26,7 @@ export class LookPicWriteWordPage {
   over: any = false;
   index: any = 0;
   score: any = 0;
-  time: any = 30;
+  time: any = 3000;
   timer: any;
   results: any = [];
 

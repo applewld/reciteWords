@@ -34,7 +34,7 @@ export class ForeignLanMotherLanPage {
   selected4: boolean = false;
 
   index: any = 0;
-  time: any = 30;
+  time: any = 3000;
   timer: any;
   yourAnswer: any = '-';
 

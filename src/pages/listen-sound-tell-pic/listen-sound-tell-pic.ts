@@ -30,7 +30,7 @@ export class ListenSoundTellPicPage {
   selected: any = '-';
   index: any = 0;
   score: any = 0;
-  time: any = 30;
+  time: any = 3000;
   TOF: any = false;
   timer: any;
   results: any = [];

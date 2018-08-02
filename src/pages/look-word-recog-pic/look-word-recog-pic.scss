@@ -16,7 +16,7 @@ page-look-word-recog-pic {
   }
 
   #details{
-    width: 94%;
+    width: 90%;
     height: 60px;
     background-color: #fafdfd;
     margin: 20px auto 10px;
@@ -24,15 +24,51 @@ page-look-word-recog-pic {
     padding: 5px 25px;
   }
   #schedule{
+    display: inline-block;
+    width: 30%;
     color: #222;
     line-height: 30px;
   }
+  #schedule1{
+    display: inline-block;
+    width: 30%;
+    color: #222;
+    line-height: 20px;
+  }
   #overtime{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
     float: right;
-    color: #f00;
     line-height: 30px;
   }
+  #overtime1{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    float: right;
+    color: #f00;
+    line-height: 20px;
+  }
+  #overtime2{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    float: right;
+    color: #f00;
+    line-height: 20px;
+  }
   #score{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    color: #222;
+    line-height: 30px;
+  }
+  #score1{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
     color: #222;
     line-height: 20px;
   }
@@ -64,11 +100,11 @@ page-look-word-recog-pic {
     text-align: center;
   }
   #sub{
-    width: 94%;
+    width: 90%;
     height: 50px;
     background-color: #000;
-    border-radius: 5px;
-    margin: 30px auto;
+    border-radius: 8px;
+    margin: 20px auto;
     color: #fff;
     text-align: center;
     font-size: 30px;

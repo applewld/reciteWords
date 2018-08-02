@@ -14,58 +14,102 @@ page-monther-lan-foreign-lan {
       ion-header .toolbar-title-ios {
         color: #ffffff;
       }
-      #details {
-        width: 94%;
-        height: 60px;
-        background-color: #fff;
-        margin: 20px auto 10px;
-        border-radius: 5px;
-        padding: 5px 25px;
-      }
-      #schedule {
-        color: #222;
-        line-height: 30px;
-      }
-      #overtime {
-        float: right;
-        color: #f00;
-        line-height: 30px;
-      }
-      #score {
-        color: #222;
-        line-height: 20px;
-      }
+  #details{
+    width: 90%;
+    height: 60px;
+    background-color: #fafdfd;
+    margin: 20px auto 10px;
+    border-radius: 5px;
+    padding: 5px 25px;
+  }
+  #schedule{
+    display: inline-block;
+    width: 30%;
+    color: #222;
+    line-height: 30px;
+  }
+  #schedule1{
+    display: inline-block;
+    width: 30%;
+    color: #222;
+    line-height: 20px;
+  }
+  #overtime{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    float: right;
+    line-height: 30px;
+  }
+  #overtime1{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    float: right;
+    color: #f00;
+    line-height: 20px;
+  }
+  #overtime2{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    float: right;
+    color: #f00;
+    line-height: 20px;
+  }
+  #score{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    color: #222;
+    line-height: 30px;
+  }
+  #score1{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    color: #222;
+    line-height: 20px;
+  }
       #end {
         color: #f00;
         float: right;
       }
-      .option {
-        border-radius: 5px;
-        width: 90%;
-        height: 8%;
-        margin: 8px auto;
-        background-color: #204b6b;
-        text-align: center;
-        color: #fff;
-        font-size: 4rem;
-      }
-      #sub {
-        width: 94%;
-        height: 50px;
-        background-color: #000;
-        border-radius: 5px;
-        margin: 30px auto;
-        color: #fff;
-        text-align: center;
-        font-size: 30px;
-        line-height: 50px;
-      }
-      #text {
-        margin-bottom: 100px;
-        font-size: 50px;
-        text-align: center;
-        color: #fff;
-      }
+  .option {
+    border-radius: 5px;
+    width: 75%;
+    height: 10%;
+    margin: 30px auto;
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 160%;
+  }
+  #sub{
+    width: 90%;
+    height: 50px;
+    background-color: #000;
+    border-radius: 8px;
+    margin: 20px auto;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  #test{
+    width: 90%;
+    height: 75%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 2%;
+  }
+  #word{
+    font-size: 8rem;
+    text-align: center;
+
+  }
       #result {
         margin-top: 40px;
       }

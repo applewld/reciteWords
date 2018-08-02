@@ -17,37 +17,38 @@
 
   <div id="details">
     <div>
-      <span id="schedule">进度：{{index}}/10</span>
-      <span id="overtime">00:{{time}}</span>
+      <span id="schedule">进度</span>
+      <span id="score">得分</span>
+      <span id="overtime">倒计时</span>
     </div>
     <div>
-      <span id="score">得分：
-        <span style="color: #f00 !important;">{{score}}</span>/100</span>
-      <span id="end" [hidden]="!over">已结束</span>
+      <span id="schedule1" style="color: #f00 !important; ">{{index}}/10</span>
+      <span id="score1" style="color: #f00 !important; ">{{score}}/100</span>
+      <span id="overtime1" [hidden]="over">00:{{time}}</span>
+      <span id="overtime2" [hidden]="!over">已结束</span>
     </div>
   </div>
 
   <div id="test" [hidden]="over">
-    <div id="text">
+    <div id="word">
       <span>{{question.word}}</span>
     </div>
-    <div class="option" [style.background-color]="selected1 ? '#ff6b00': '#204b6b'" (click)="select1()">
+    <div class="option" [style.background-color]="selected1 ? '#ff6b00': '#2eb8b9'" (click)="select1()">
       <span>{{question.option1}}</span>
     </div>
-    <div class="option" [style.background-color]="selected2 ? '#ff6b00': '#204b6b'" (click)="select2()">
+    <div class="option" [style.background-color]="selected2 ? '#ff6b00': '#2eb8b9'" (click)="select2()">
       <span>{{question.option2}}</span>
     </div>
-    <div class="option" [style.background-color]="selected3 ? '#ff6b00': '#204b6b'" (click)="select3()">
+    <div class="option" [style.background-color]="selected3 ? '#ff6b00': '#2eb8b9'" (click)="select3()">
       <span>{{question.option3}}</span>
     </div>
-    <div class="option" [style.background-color]="selected4 ? '#ff6b00': '#204b6b'" (click)="select4()">
+    <div class="option" [style.background-color]="selected4 ? '#ff6b00': '#2eb8b9'" (click)="select4()">
       <span>{{question.option4}}</span>
     </div>
-    <div id="sub" (click)="nextQuestion()">
-      <span>提交</span>
-    </div>
   </div>
-
+  <div id="sub" [hidden]="over" (click)="nextQuestion()">
+    <span>提交</span>
+  </div>
   <div id="result" [hidden]="!over">
     <div class="result-item" *ngFor="let result of results;index as i;" (click)="playAudio(i)">
       <audio src="{{result.audioSrc}}" controls="controls" preload class="word-audio" hidden></audio>
